@@ -1,4 +1,5 @@
 <?php
+//esto es la primera parte del sistema
 require("controllers/Template.class.php");
 $tpl = new Template('view/html/');
 $fecha=date("d/m/Y");	
