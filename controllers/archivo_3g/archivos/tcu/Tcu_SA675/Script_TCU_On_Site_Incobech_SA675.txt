@@ -1,0 +1,197 @@
+--------------------------------------------------------
+Fecha Creacion 26/09/2017 17:41:30
+Script_TCU_SA675_
+Nemonico del POP SA675
+Name_Site SAN DIEGO	
+Generador INCOBECH Usuario LUIS MARDONES
+Team_Integracion
+--------------------------------------------------------
+
+resettofactorysetting
+deleteaimo
+starttransaction 1
+
+
+setmoattribute 1 stn=0 stn_name STN_SA675
+setmoattribute 1 stn=0 wakeUpDestination 10.170.14.74
+setmoattribute 1 stn=0 wakeUpEventInterval 1
+setmoattribute 1 stn=0 DSCP_OperationAndMaintenance 40
+setmoattribute 1 stn=0 systemClockTimeServer 172.16.50.42
+setmoattribute 1 stn=0 systemClockTimeServerType NTP
+setmoattribute 1 stn=0 STN_systemClockUDP_Port 123
+setmoattribute 1 stn=0 DSCP_OM_filetransfer 22
+setmoattribute 1 stn=0 promptPrefix STN_SA675
+
+createmo 1 stn=0,bridge=B_SA675_IUB
+createmo 1 stn=0,bridge=B_SA675_IUB_OAM
+createmo 1 stn=0,bridge=B_SA675_IUB_2
+createmo 1 stn=0,bridge=B_SA675_IUB_OAM_2
+createmo 1 stn=0,bridge=B_SA675_LTE
+createmo 1 stn=0,bridge=B_SA675_LTE_OAM
+createmo 1 stn=0,bridge=B_SA675_SYNC
+createmo 1 stn=0,bridge=B_SA675_OAM
+
+createmo 1 stn=0,ethernetinterface=PF_SA675_1900
+setmoattribute 1 stn=0,ethernetinterface=PF_SA675_1900 mode gigabit
+setmoattribute 1 stn=0,ethernetinterface=PF_SA675_1900 portid TN_F
+
+createmo 1 stn=0,ethernetinterface=PG_SA675_900
+setmoattribute 1 stn=0,ethernetinterface=PG_SA675_900 mode gigabit
+setmoattribute 1 stn=0,ethernetinterface=PG_SA675_900 portid TN_G
+
+createmo 1 stn=0,ethernetinterface=PH_SA675_LTE
+setmoattribute 1 stn=0,ethernetinterface=PH_SA675_LTE mode gigabit
+setmoattribute 1 stn=0,ethernetinterface=PH_SA675_LTE portid TN_H
+
+createmo 1 stn=0,ethernetinterface=PD_SA675_WAN
+setmoattribute 1 stn=0,ethernetinterface=PD_SA675_WAN mode 100MBitfullduplex
+setmoattribute 1 stn=0,ethernetinterface=PD_SA675_WAN portid TN_D
+
+createmo 1 stn=0,vlangroup=VG_SA675_PF
+setmoattribute 1 stn=0,vlangroup=VG_SA675_PF deplinklayer stn=0,ethernetinterface=PF_SA675_1900
+
+createmo 1 stn=0,vlangroup=VG_SA675_PG
+setmoattribute 1 stn=0,vlangroup=VG_SA675_PG deplinklayer stn=0,ethernetinterface=PG_SA675_900
+
+createmo 1 stn=0,vlangroup=VG_SA675_PH
+setmoattribute 1 stn=0,vlangroup=VG_SA675_PH deplinklayer stn=0,ethernetinterface=PH_SA675_LTE
+
+createmo 1 stn=0,vlangroup=VG_SA675_PD
+setmoattribute 1 stn=0,vlangroup=VG_SA675_PD deplinklayer stn=0,ethernetinterface=PD_SA675_WAN
+
+
+createmo 1 stn=0,vlangroup=VG_SA675_PD,vlan=VLAN_SA675_SYNC
+setmoattribute 1 stn=0,vlangroup=VG_SA675_PD,vlan=VLAN_SA675_SYNC tagvalue 18
+setmoattribute 1 stn=0,vlangroup=VG_SA675_PD,vlan=VLAN_SA675_SYNC tagged true
+setmoattribute 1 stn=0,vlangroup=VG_SA675_PD,vlan=VLAN_SA675_SYNC depBridge STN=0,Bridge=B_SA675_SYNC
+
+createmo 1 stn=0,vlangroup=VG_SA675_PD,vlan=VLAN_SA675_OAM
+setmoattribute 1 stn=0,vlangroup=VG_SA675_PD,vlan=VLAN_SA675_OAM tagvalue 23
+setmoattribute 1 stn=0,vlangroup=VG_SA675_PD,vlan=VLAN_SA675_OAM tagged true
+setmoattribute 1 stn=0,vlangroup=VG_SA675_PD,vlan=VLAN_SA675_OAM depBridge STN=0,Bridge=B_SA675_OAM
+
+createmo 1 stn=0,vlangroup=VG_SA675_PD,vlan=VLAN_SA675_ABIS
+setmoattribute 1 stn=0,vlangroup=VG_SA675_PD,vlan=VLAN_SA675_ABIS tagvalue 1316
+setmoattribute 1 stn=0,vlangroup=VG_SA675_PD,vlan=VLAN_SA675_ABIS tagged true
+
+createmo 1 stn=0,vlangroup=VG_SA675_PD,vlan=VLAN_SA675_IUB
+setmoattribute 1 stn=0,vlangroup=VG_SA675_PD,vlan=VLAN_SA675_IUB tagvalue 1314
+setmoattribute 1 stn=0,vlangroup=VG_SA675_PD,vlan=VLAN_SA675_IUB tagged true
+setmoattribute 1 stn=0,vlangroup=VG_SA675_PD,vlan=VLAN_SA675_IUB depBridge STN=0,Bridge=B_SA675_IUB
+
+createmo 1 stn=0,vlangroup=VG_SA675_PD,vlan=VLAN_SA675_IUB_OAM
+setmoattribute 1 stn=0,vlangroup=VG_SA675_PD,vlan=VLAN_SA675_IUB_OAM tagvalue 1315
+setmoattribute 1 stn=0,vlangroup=VG_SA675_PD,vlan=VLAN_SA675_IUB_OAM tagged true
+setmoattribute 1 stn=0,vlangroup=VG_SA675_PD,vlan=VLAN_SA675_IUB_OAM depBridge STN=0,Bridge=B_SA675_IUB_OAM 
+
+createmo 1 stn=0,vlangroup=VG_SA675_PD,vlan=VLAN_SA675_LTE
+setmoattribute 1 stn=0,vlangroup=VG_SA675_PD,vlan=VLAN_SA675_LTE tagvalue 1400
+setmoattribute 1 stn=0,vlangroup=VG_SA675_PD,vlan=VLAN_SA675_LTE tagged true
+setmoattribute 1 stn=0,vlangroup=VG_SA675_PD,vlan=VLAN_SA675_LTE depBridge STN=0,Bridge=B_SA675_LTE
+
+createmo 1 stn=0,vlangroup=VG_SA675_PD,vlan=VLAN_SA675_LTE_OAM
+setmoattribute 1 stn=0,vlangroup=VG_SA675_PD,vlan=VLAN_SA675_LTE_OAM tagvalue 1401
+setmoattribute 1 stn=0,vlangroup=VG_SA675_PD,vlan=VLAN_SA675_LTE_OAM tagged true
+setmoattribute 1 stn=0,vlangroup=VG_SA675_PD,vlan=VLAN_SA675_LTE_OAM depBridge STN=0,Bridge=B_SA675_LTE_OAM
+
+createmo 1 stn=0,vlangroup=VG_SA675_PF,vlan=VLAN_SA675_IUB
+setmoattribute 1 stn=0,vlangroup=VG_SA675_PF,vlan=VLAN_SA675_IUB tagvalue 1314
+setmoattribute 1 stn=0,vlangroup=VG_SA675_PF,vlan=VLAN_SA675_IUB tagged true
+setmoattribute 1 stn=0,vlangroup=VG_SA675_PF,vlan=VLAN_SA675_IUB depBridge STN=0,Bridge=B_SA675_IUB
+
+createmo 1 stn=0,vlangroup=VG_SA675_PF,vlan=VLAN_SA675_IUB_OAM
+setmoattribute 1 stn=0,vlangroup=VG_SA675_PF,vlan=VLAN_SA675_IUB_OAM tagvalue 1315
+setmoattribute 1 stn=0,vlangroup=VG_SA675_PF,vlan=VLAN_SA675_IUB_OAM tagged true
+setmoattribute 1 stn=0,vlangroup=VG_SA675_PF,vlan=VLAN_SA675_IUB_OAM depBridge STN=0,Bridge=B_SA675_IUB_OAM
+createmo 1 stn=0,vlangroup=VG_SA675_PG,vlan=VLAN_SA675_IUB_2
+setmoattribute 1 stn=0,vlangroup=VG_SA675_PG,vlan=VLAN_SA675_IUB_2 tagvalue 1314
+setmoattribute 1 stn=0,vlangroup=VG_SA675_PG,vlan=VLAN_SA675_IUB_2 tagged true
+setmoattribute 1 stn=0,vlangroup=VG_SA675_PG,vlan=VLAN_SA675_IUB_2 depBridge STN=0,Bridge=B_SA675_IUB
+
+createmo 1 stn=0,vlangroup=VG_SA675_PG,vlan=VLAN_SA675_IUB_OAM_2
+setmoattribute 1 stn=0,vlangroup=VG_SA675_PG,vlan=VLAN_SA675_IUB_OAM_2 tagvalue 1315
+setmoattribute 1 stn=0,vlangroup=VG_SA675_PG,vlan=VLAN_SA675_IUB_OAM_2 tagged true
+setmoattribute 1 stn=0,vlangroup=VG_SA675_PG,vlan=VLAN_SA675_IUB_OAM_2 depBridge STN=0,Bridge=B_SA675_IUB_OAM
+createmo 1 stn=0,vlangroup=VG_SA675_PH,vlan=VLAN_SA675_LTE
+setmoattribute 1 stn=0,vlangroup=VG_SA675_PH,vlan=VLAN_SA675_LTE tagvalue 1400
+setmoattribute 1 stn=0,vlangroup=VG_SA675_PH,vlan=VLAN_SA675_LTE tagged true
+setmoattribute 1 stn=0,vlangroup=VG_SA675_PH,vlan=VLAN_SA675_LTE depBridge STN=0,Bridge=B_SA675_LTE
+
+createmo 1 stn=0,vlangroup=VG_SA675_PH,vlan=VLAN_SA675_LTE_OAM
+setmoattribute 1 stn=0,vlangroup=VG_SA675_PH,vlan=VLAN_SA675_LTE_OAM tagvalue 1401
+setmoattribute 1 stn=0,vlangroup=VG_SA675_PH,vlan=VLAN_SA675_LTE_OAM tagged true
+setmoattribute 1 stn=0,vlangroup=VG_SA675_PH,vlan=VLAN_SA675_LTE_OAM depBridge STN=0,Bridge=B_SA675_LTE_OAM
+
+
+createmo 1 stn=0,ipinterface=IPINT_SA675_OAM 
+setmoattribute 1 stn=0 depip_interface stn=0,ipinterface=IPINT_SA675_OAM 
+setmoattribute 1 stn=0,IPInterface=IPINT_SA675_OAM  primaryIP_Address 10.65.205.25
+setmoattribute 1 stn=0,IPInterface=IPINT_SA675_OAM  primarySubNetMask 255.255.255.192
+setmoattribute 1 stn=0,IPInterface=IPINT_SA675_OAM  depLinkLayer STN=0,Bridge=B_SA675_OAM
+
+createmo 1 stn=0,ipinterface=IPINT_SA675_SYNC
+setmoattribute 1 stn=0,IPInterface=IPINT_SA675_SYNC primaryIP_Address 10.64.43.61
+setmoattribute 1 stn=0,IPInterface=IPINT_SA675_SYNC primarySubNetMask 255.255.255.0
+setmoattribute 1 stn=0,IPInterface=IPINT_SA675_SYNC depLinkLayer STN=0,Bridge=B_SA675_SYNC
+
+!Parámetros_Servicios_2G
+
+createmo 1 stn=0,ipinterface=IPINT_SA675_ABIS
+setmoattribute 1 stn=0,IPInterface=IPINT_SA675_ABIS primaryIP_Address 10.33.212.206
+setmoattribute 1 stn=0,IPInterface=IPINT_SA675_ABIS primarySubNetMask 255.255.255.128
+setmoattribute 1 stn=0,IPInterface=IPINT_SA675_ABIS depLinkLayer STN=0,vlangroup=VG_SA675_PD,vlan=VLAN_SA675_ABIS
+
+createmo 1 STN=0,RoutingTable=0,IpRoute=IPROU_SA675_SYNC
+setmoattribute 1 STN=0,RoutingTable=0,IpRoute=IPROU_SA675_SYNC destIpSubnet 10.170.73.248/29
+setmoattribute 1 STN=0,RoutingTable=0,IpRoute=IPROU_SA675_SYNC nextHopIpAddress 10.64.43.1
+setmoattribute 1 STN=0,RoutingTable=0,IpRoute=IPROU_SA675_SYNC forwardingInterface STN=0,IPInterface=IPINT_SA675_SYNC
+setmoattribute 1 STN=0,RoutingTable=0,IpRoute=IPROU_SA675_SYNC disableConnectivityCheck TRUE
+
+createmo 1 STN=0,RoutingTable=0,IpRoute=IPROU_SA675_SYNC_2
+setmoattribute 1 STN=0,RoutingTable=0,IpRoute=IPROU_SA675_SYNC_2 destIpSubnet 10.170.63.248/29
+setmoattribute 1 STN=0,RoutingTable=0,IpRoute=IPROU_SA675_SYNC_2 nextHopIpAddress 10.64.62.1
+setmoattribute 1 STN=0,RoutingTable=0,IpRoute=IPROU_SA675_SYNC_2 forwardingInterface STN=0,IPInterface=IPINT_SA675_SYNC
+setmoattribute 1 STN=0,RoutingTable=0,IpRoute=IPROU_SA675_SYNC_2 disableConnectivityCheck TRUE
+
+
+createmo 1 STN=0,RoutingTable=0,IpRoute=IPROU_SA675_OAM
+setmoattribute 1 STN=0,RoutingTable=0,IpRoute=IPROU_SA675_OAM destIpSubnet 0.0.0.0/0
+setmoattribute 1 STN=0,RoutingTable=0,IpRoute=IPROU_SA675_OAM nextHopIpAddress 10.65.205.1
+setmoattribute 1 STN=0,RoutingTable=0,IpRoute=IPROU_SA675_OAM forwardingInterface STN=0,IPInterface=IPINT_SA675_OAM 
+setmoattribute 1 STN=0,RoutingTable=0,IpRoute=IPROU_SA675_OAM disableConnectivityCheck TRUE
+
+createmo 1 STN=0,RoutingTable=0,IpRoute=IPROU_SA675_ABIS
+setmoattribute 1 STN=0,RoutingTable=0,IpRoute=IPROU_SA675_ABIS destIpSubnet 10.170.66.164/24
+setmoattribute 1 STN=0,RoutingTable=0,IpRoute=IPROU_SA675_ABIS nextHopIpAddress 10.33.212.129
+setmoattribute 1 STN=0,RoutingTable=0,IpRoute=IPROU_SA675_ABIS forwardingInterface STN=0,IPInterface=IPINT_SA675_ABIS
+setmoattribute 1 STN=0,RoutingTable=0,IpRoute=IPROU_SA675_ABIS disableConnectivityCheck TRUE
+
+setmoattribute 1 STN=0,Synchronization=0 synchType timeServer
+setmoattribute 1 STN=0,Synchronization=0 depIP_Interface STN=0,IPInterface=IPINT_SA675_SYNC
+setmoattribute 1 STN=0,Synchronization=0 DSCP_Synchronization 46
+
+createmo 1 STN=0,Synchronization=0,TimeServer=SERVT_NTP1
+setmoattribute 1 STN=0,Synchronization=0,TimeServer=SERVT_NTP1 TS_Priority 10
+setmoattribute 1 STN=0,Synchronization=0,TimeServer=SERVT_NTP1 TS_IP_Address 10.170.73.253
+setmoattribute 1 STN=0,Synchronization=0,TimeServer=SERVT_NTP1 timeServerType NTP
+setmoattribute 1 STN=0,Synchronization=0,TimeServer=SERVT_NTP1 STN_TS_UDP_Port 123
+
+createmo 1 STN=0,Synchronization=0,TimeServer=SERVT_NTP2
+setmoattribute 1 STN=0,Synchronization=0,TimeServer=SERVT_NTP2 TS_Priority 20
+setmoattribute 1 STN=0,Synchronization=0,TimeServer=SERVT_NTP2 TS_IP_Address 10.170.73.254
+setmoattribute 1 STN=0,Synchronization=0,TimeServer=SERVT_NTP2 timeServerType NTP
+setmoattribute 1 STN=0,Synchronization=0,TimeServer=SERVT_NTP2 STN_TS_UDP_Port 123
+
+createmo 1 STN=0,Synchronization=0,TimeServer=SERVT_NTP3
+setmoattribute 1 STN=0,Synchronization=0,TimeServer=SERVT_NTP3 TS_Priority 30
+setmoattribute 1 STN=0,Synchronization=0,TimeServer=SERVT_NTP3 TS_IP_Address 10.170.63.253
+setmoattribute 1 STN=0,Synchronization=0,TimeServer=SERVT_NTP3 timeServerType NTP
+setmoattribute 1 STN=0,Synchronization=0,TimeServer=SERVT_NTP3 STN_TS_UDP_Port 123
+
+
+
+checkconsistency 1
+commit 1 forcedcommit
+endtransaction 1
+
+

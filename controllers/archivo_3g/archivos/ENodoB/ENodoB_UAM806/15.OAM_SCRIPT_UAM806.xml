@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE SiteBasic SYSTEM "OamAccess.dtd">
+
+<!--OAM Access Configuration-->
+<!-- Created 24/08/2017 16:11:22 -->
+<!-- Created by INCOBECH -->
+
+<SiteBasic>
+  <Format revision="E" />
+  <ConfigureOAMAccess>
+    <IPoverEthernet ethernetIpAddress="169.254.1.1" ethernetSubnetMask="255.255.0.0" />
+        <IPoverGigabitEthernet etIPSynchSlot="1" syncIpAddress="10.31.232.146" syncSubnetMask="255.255.255.192" defaultRouter0="10.31.232.129" syncVid="1308">
+      <IpSyncRef ntpServerIpAddress="10.170.35.253" />
+      <IpSyncRef ntpServerIpAddress="10.170.35.254" />
+        <OamIpHost oamSubnetMask="255.255.255.192" oamDefaultRouter0="10.32.230.65" oamIpAddress="10.32.230.78" oamVid="1309"  />
+      <GigaBitEthernet gigaBitEthernetPort="TNA" />
+    </IPoverGigabitEthernet>
+    <Servers isDefaultDomainName="NO" dnsServerIpAddress="172.29.79.50"  primaryNtpServerIpAddress="172.16.50.41" primaryNtpServiceActive="YES" secondaryNtpServerIpAddress="172.16.50.42" secondaryNtpServiceActive="YES" localTimeZone="UTC" daylightSavingTime="YES" singleLogonServer="" />
+    <StaticRouting>
+      <Route routeIpAddress="0.0.0.0" routeSubnetMask="0.0.0.0" hopIpAddress="10.31.230.90" routeMetric="100" redistribute="NO" />
+      <Route routeIpAddress="0.0.0.0" routeSubnetMask="0.0.0.0" hopIpAddress="10.32.230.65" routeMetric="100" redistribute="NO" />
+      <Route routeIpAddress="10.0.0.0" routeSubnetMask="255.255.0.0" hopIpAddress="169.254.1.2" routeMetric="100" redistribute="NO" />
+    </StaticRouting>
+    <NetworkSynch synchSlot="1" synchPort="7" synchPriority="1" />
+    <NetworkSynch synchSlot="1" synchPort="8" synchPriority="2" />
+  </ConfigureOAMAccess>
+</SiteBasic>

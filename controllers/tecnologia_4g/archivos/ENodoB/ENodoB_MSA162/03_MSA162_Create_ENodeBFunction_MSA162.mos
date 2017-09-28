@@ -1,0 +1,115 @@
+#########################################
+# - Mo shell version: 
+# - File name: 04_RN_ENBF_MAM792_ENTEL_CHILE_BB_Entel_Chile_2017_04_07T18_16_26Z.mos
+# - Creation date: 26/09/2017
+# - User ID: INCOBECH
+# - Node name: MSA162
+#########################################
+
+confb+
+gs+
+
+crn ENodeBFunction=1
+eNodeBPlmnId mcc=730,mnc=01,mncLength=2
+alignTtiBundWUlTrigSinr 0
+biasThpWifiMobility 10
+caAwareMfbiIntraCellHo false
+checkEmergencySoftLock false
+combCellSectorSelectThreshRx 300
+combCellSectorSelectThreshTx 300
+csfbMeasFromIdleMode true
+dlMaxWaitingTimeGlobal 0
+dnsLookupOnTai 1
+dnsLookupTimer 0
+dscpLabel 24
+enabledUlTrigMeas false
+eNBId 42162
+forcedSiTunnelingActive false
+gtpuErrorIndicationDscp 40
+initPreschedulingEnable true
+licCapDistrMethod 0
+licConnectedUsersPercentileConf 90
+licDlBbPercentileConf 90
+licDlPrbPercentileConf 90
+licUlBbPercentileConf 90
+licUlPrbPercentileConf 90
+maxRandc 255
+measuringEcgiWithAgActive false
+mfbiSupportPolicy false
+minRandc 1
+mtRreWithoutNeighborActive true
+nnsfMode 1
+prioritizeAdditionalBands false
+pwsPersistentStorage 0
+randUpdateInterval 200
+releaseInactiveUesInactTime 1
+releaseInactiveUesMpLoadLevel 2
+rrcConnReestActive true
+s1GtpuEchoDscp 14
+s1GtpuEchoEnable 0
+s1GtpuEchoFailureAction 0
+s1HODirDataPathAvail false
+s1RetryTimer 30
+sctpRef Transport=1,SctpEndpoint=1
+softLockRwRWaitTimerInternal 60
+softLockRwRWaitTimerOperator 60
+tddVoipDrxProfileId -1
+timePhaseMaxDeviation 100
+timeAndPhaseSynchCritical false
+timeAndPhaseSynchAlignment false
+timePhaseMaxDeviationCdma2000 100
+timePhaseMaxDeviationMbms 50
+timePhaseMaxDeviationOtdoa 9
+timePhaseMaxDeviationSib16 100
+timePhaseMaxDeviationTdd 15
+tOutgoingHoExecCdma1xRtt 5
+tRelocOverall 5
+tS1HoCancelTimer 3
+ulMaxWaitingTimeGlobal 0
+ulSchedulerDynamicBWAllocationEnabled true
+upIpAddressRef Transport=1,Router=LTE,InterfaceIPv4=1,AddressIPv4=1
+useBandPrioritiesInSCellEval false
+userLabel MSA162
+x2IpAddrViaS1Active true
+x2retryTimerMaxAuto 1440
+x2retryTimerStart 30
+x2SetupTwoWayRelations false
+x2GtpuEchoDscp 14
+x2GtpuEchoEnable 0
+zzzTemporary1 1
+zzzTemporary10 -2000000000
+zzzTemporary11 -2000000000
+zzzTemporary12 -2000000000
+zzzTemporary13 -2000000000
+zzzTemporary15 -2000000000
+zzzTemporary16 -2000000000
+zzzTemporary17 -2000000000
+zzzTemporary18 -2000000000
+zzzTemporary21 -2000000000
+zzzTemporary22 -2000000000
+zzzTemporary23 -2000000000
+zzzTemporary24 -2000000000
+zzzTemporary25 -2000000000
+zzzTemporary26 -2000000000
+zzzTemporary28 -2000000000
+zzzTemporary29 -2000000000
+zzzTemporary30 -2000000000
+zzzTemporary31 -2000000000
+zzzTemporary32 -2000000000
+zzzTemporary33 -2000000000
+zzzTemporary34 -2000000000
+zzzTemporary35 -2000000000
+zzzTemporary36 -2000000000
+zzzTemporary37 -2000000000
+zzzTemporary38 -2000000000
+zzzTemporary39 -2000000000
+zzzTemporary40 -2000000000
+zzzTemporary5 -2000000000
+zzzTemporary6 -2000000000
+zzzTemporary7 -2000000000
+zzzTemporary9 -2000000000
+end
+#END ENodeBFunction=1 --------------------
+
+gs-
+confb-

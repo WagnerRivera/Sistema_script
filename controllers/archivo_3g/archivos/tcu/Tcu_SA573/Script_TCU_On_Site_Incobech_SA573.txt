@@ -1,0 +1,194 @@
+--------------------------------------------------------
+Fecha Creacion 26/09/2017 12:19:16
+Script_TCU_SA573_
+Nemonico del POP SA573
+Name_Site QUILICURA 5
+Generador INCOBECH Usuario LUIS MARDONES
+Team_Integracion
+--------------------------------------------------------
+
+resettofactorysetting
+deleteaimo
+starttransaction 1
+
+
+setmoattribute 1 stn=0 stn_name STN_SA573
+setmoattribute 1 stn=0 wakeUpDestination 10.170.14.74
+setmoattribute 1 stn=0 wakeUpEventInterval 1
+setmoattribute 1 stn=0 DSCP_OperationAndMaintenance 40
+setmoattribute 1 stn=0 systemClockTimeServer 172.16.50.42
+setmoattribute 1 stn=0 systemClockTimeServerType NTP
+setmoattribute 1 stn=0 STN_systemClockUDP_Port 123
+setmoattribute 1 stn=0 DSCP_OM_filetransfer 22
+setmoattribute 1 stn=0 promptPrefix STN_SA573
+
+createmo 1 stn=0,bridge=B_SA573_IUB
+createmo 1 stn=0,bridge=B_SA573_IUB_OAM
+createmo 1 stn=0,bridge=B_SA573_IUB_2
+createmo 1 stn=0,bridge=B_SA573_IUB_OAM_2
+createmo 1 stn=0,bridge=B_SA573_LTE
+createmo 1 stn=0,bridge=B_SA573_LTE_OAM
+createmo 1 stn=0,bridge=B_SA573_SYNC
+createmo 1 stn=0,bridge=B_SA573_OAM
+
+createmo 1 stn=0,vlangroup=VG_SA573_PF
+setmoattribute 1 stn=0,vlangroup=VG_SA573_PF deplinklayer stn=0,ethernetinterface=PF_SA573_1900
+
+createmo 1 stn=0,vlangroup=VG_SA573_PG
+setmoattribute 1 stn=0,vlangroup=VG_SA573_PG deplinklayer stn=0,ethernetinterface=PG_SA573_900
+
+createmo 1 stn=0,vlangroup=VG_SA573_PH
+setmoattribute 1 stn=0,vlangroup=VG_SA573_PH deplinklayer stn=0,ethernetinterface=PH_SA573_LTE
+
+createmo 1 stn=0,vlangroup=VG_SA573_PD
+setmoattribute 1 stn=0,vlangroup=VG_SA573_PD deplinklayer stn=0,ethernetinterface=PD_SA573_WAN
+
+
+createmo 1 stn=0,vlangroup=VG_SA573_PD,vlan=VLAN_SA573_LTE
+setmoattribute 1 stn=0,vlangroup=VG_SA573_PD,vlan=VLAN_SA573_LTE tagvalue 18
+setmoattribute 1 stn=0,vlangroup=VG_SA573_PD,vlan=VLAN_SA573_LTE tagged true
+setmoattribute 1 stn=0,vlangroup=VG_SA573_PD,vlan=VLAN_SA573_LTE depBridge STN=0,Bridge=B_SA573_LTE
+
+createmo 1 stn=0,vlangroup=VG_SA573_PD,vlan=VLAN_SA573_OAM
+setmoattribute 1 stn=0,vlangroup=VG_SA573_PD,vlan=VLAN_SA573_OAM tagvalue 23
+setmoattribute 1 stn=0,vlangroup=VG_SA573_PD,vlan=VLAN_SA573_OAM tagged true
+setmoattribute 1 stn=0,vlangroup=VG_SA573_PD,vlan=VLAN_SA573_OAM depBridge STN=0,Bridge=B_SA573_OAM
+
+createmo 1 stn=0,vlangroup=VG_SA573_PD,vlan=VLAN_SA573_ABIS
+setmoattribute 1 stn=0,vlangroup=VG_SA573_PD,vlan=VLAN_SA573_ABIS tagvalue 1302
+setmoattribute 1 stn=0,vlangroup=VG_SA573_PD,vlan=VLAN_SA573_ABIS tagged true
+
+createmo 1 stn=0,vlangroup=VG_SA573_PD,vlan=VLAN_SA573_IUB
+setmoattribute 1 stn=0,vlangroup=VG_SA573_PD,vlan=VLAN_SA573_IUB tagvalue 1300
+setmoattribute 1 stn=0,vlangroup=VG_SA573_PD,vlan=VLAN_SA573_IUB tagged true
+setmoattribute 1 stn=0,vlangroup=VG_SA573_PD,vlan=VLAN_SA573_IUB depBridge STN=0,Bridge=B_SA573_IUB
+
+createmo 1 stn=0,vlangroup=VG_SA573_PD,vlan=VLAN_SA573_IUB_OAM
+setmoattribute 1 stn=0,vlangroup=VG_SA573_PD,vlan=VLAN_SA573_IUB_OAM tagvalue 1301
+setmoattribute 1 stn=0,vlangroup=VG_SA573_PD,vlan=VLAN_SA573_IUB_OAM tagged true
+setmoattribute 1 stn=0,vlangroup=VG_SA573_PD,vlan=VLAN_SA573_IUB_OAM depBridge STN=0,Bridge=B_SA573_IUB_OAM
+
+createmo 1 stn=0,vlangroup=VG_SA573_PD,vlan=VLAN_SA573_IUB_2
+setmoattribute 1 stn=0,vlangroup=VG_SA573_PD,vlan=VLAN_SA573_IUB_2 tagvalue 1200
+setmoattribute 1 stn=0,vlangroup=VG_SA573_PD,vlan=VLAN_SA573_IUB_2 tagged true
+setmoattribute 1 stn=0,vlangroup=VG_SA573_PD,vlan=VLAN_SA573_IUB_2 depBridge STN=0,Bridge=B_SA573_IUB_2
+
+createmo 1 stn=0,vlangroup=VG_SA573_PD,vlan=VLAN_SA573_IUB_OAM_2
+setmoattribute 1 stn=0,vlangroup=VG_SA573_PD,vlan=VLAN_SA573_IUB_OAM_2 tagvalue 1201
+setmoattribute 1 stn=0,vlangroup=VG_SA573_PD,vlan=VLAN_SA573_IUB_OAM_2 tagged true
+setmoattribute 1 stn=0,vlangroup=VG_SA573_PD,vlan=VLAN_SA573_IUB_OAM_2 depBridge STN=0,Bridge=B_SA573_IUB_OAM_2
+
+createmo 1 stn=0,vlangroup=VG_SA573_PD,vlan=VLAN_SA573_LTE
+setmoattribute 1 stn=0,vlangroup=VG_SA573_PD,vlan=VLAN_SA573_LTE tagvalue 1400
+setmoattribute 1 stn=0,vlangroup=VG_SA573_PD,vlan=VLAN_SA573_LTE tagged true
+setmoattribute 1 stn=0,vlangroup=VG_SA573_PD,vlan=VLAN_SA573_LTE depBridge STN=0,Bridge=B_SA573_IUB_2
+
+createmo 1 stn=0,vlangroup=VG_SA573_PD,vlan=VLAN_SA573_LTE_OAM
+setmoattribute 1 stn=0,vlangroup=VG_SA573_PD,vlan=VLAN_SA573_LTE_OAM tagvalue 1401
+setmoattribute 1 stn=0,vlangroup=VG_SA573_PD,vlan=VLAN_SA573_LTE_OAM tagged true
+setmoattribute 1 stn=0,vlangroup=VG_SA573_PD,vlan=VLAN_SA573_LTE_OAM depBridge STN=0,Bridge=B_SA573_LTE_OAM
+
+createmo 1 stn=0,vlangroup=VG_SA573_PF,vlan=VLAN_SA573_IUB
+setmoattribute 1 stn=0,vlangroup=VG_SA573_PF,vlan=VLAN_SA573_IUB tagvalue 1300
+setmoattribute 1 stn=0,vlangroup=VG_SA573_PF,vlan=VLAN_SA573_IUB tagged true
+setmoattribute 1 stn=0,vlangroup=VG_SA573_PF,vlan=VLAN_SA573_IUB depBridge STN=0,Bridge=B_SA573_IUB
+
+createmo 1 stn=0,vlangroup=VG_SA573_PF,vlan=VLAN_SA573_IUB_OAM
+setmoattribute 1 stn=0,vlangroup=VG_SA573_PF,vlan=VLAN_SA573_IUB_OAM tagvalue 1301
+setmoattribute 1 stn=0,vlangroup=VG_SA573_PF,vlan=VLAN_SA573_IUB_OAM tagged true
+setmoattribute 1 stn=0,vlangroup=VG_SA573_PF,vlan=VLAN_SA573_IUB_OAM depBridge STN=0,Bridge=B_SA573_IUB_OAM
+
+createmo 1 stn=0,vlangroup=VG_SA573_PG,vlan=VLAN_SA573_IUB_2
+setmoattribute 1 stn=0,vlangroup=VG_SA573_PG,vlan=VLAN_SA573_IUB_2 tagvalue 1200
+setmoattribute 1 stn=0,vlangroup=VG_SA573_PG,vlan=VLAN_SA573_IUB_2 tagged true
+setmoattribute 1 stn=0,vlangroup=VG_SA573_PG,vlan=VLAN_SA573_IUB_2 depBridge STN=0,Bridge=B_SA573_IUB_2
+
+createmo 1 stn=0,vlangroup=VG_SA573_PG,vlan=VLAN_SA573_IUB_OAM_2
+setmoattribute 1 stn=0,vlangroup=VG_SA573_PG,vlan=VLAN_SA573_IUB_OAM_2 tagvalue 1201
+setmoattribute 1 stn=0,vlangroup=VG_SA573_PG,vlan=VLAN_SA573_IUB_OAM_2 tagged true
+setmoattribute 1 stn=0,vlangroup=VG_SA573_PG,vlan=VLAN_SA573_IUB_OAM_2 depBridge STN=0,Bridge=B_SA573_IUB_OAM_2
+
+createmo 1 stn=0,vlangroup=VG_SA573_PH,vlan=VLAN_SA573_LTE
+setmoattribute 1 stn=0,vlangroup=VG_SA573_PH,vlan=VLAN_SA573_LTE tagvalue 1400
+setmoattribute 1 stn=0,vlangroup=VG_SA573_PH,vlan=VLAN_SA573_LTE tagged true
+setmoattribute 1 stn=0,vlangroup=VG_SA573_PH,vlan=VLAN_SA573_LTE depBridge STN=0,Bridge=B_SA573_LTE
+
+createmo 1 stn=0,vlangroup=VG_SA573_PH,vlan=VLAN_SA573_LTE_OAM
+setmoattribute 1 stn=0,vlangroup=VG_SA573_PH,vlan=VLAN_SA573_LTE_OAM tagvalue 1401
+setmoattribute 1 stn=0,vlangroup=VG_SA573_PH,vlan=VLAN_SA573_LTE_OAM tagged true
+setmoattribute 1 stn=0,vlangroup=VG_SA573_PH,vlan=VLAN_SA573_LTE_OAM depBridge STN=0,Bridge=B_SA573_LTE_OAM
+
+
+createmo 1 stn=0,ipinterface=IPINT_SA573_OAM 
+setmoattribute 1 stn=0 depip_interface stn=0,ipinterface=IPINT_SA573_OAM 
+setmoattribute 1 stn=0,IPInterface=IPINT_SA573_OAM  primaryIP_Address 10.65.200.136
+setmoattribute 1 stn=0,IPInterface=IPINT_SA573_OAM  primarySubNetMask 255.255.255.192
+setmoattribute 1 stn=0,IPInterface=IPINT_SA573_OAM  depLinkLayer STN=0,Bridge=B_SA573_OAM
+
+createmo 1 stn=0,ipinterface=IPINT_SA573_SYNC
+setmoattribute 1 stn=0,IPInterface=IPINT_SA573_SYNC primaryIP_Address 10.64.62.43
+setmoattribute 1 stn=0,IPInterface=IPINT_SA573_SYNC primarySubNetMask 255.255.255.0
+setmoattribute 1 stn=0,IPInterface=IPINT_SA573_SYNC depLinkLayer STN=0,Bridge=B_SA573_SYNC
+
+!Parámetros_Servicios_2G
+
+createmo 1 stn=0,ipinterface=IPINT_SA573_ABIS
+setmoattribute 1 stn=0,IPInterface=IPINT_SA573_ABIS destIpSubnet  172.41.241.36
+setmoattribute 1 stn=0,IPInterface=IPINT_SA573_ABIS primaryIP_Address 10.33.202.14
+setmoattribute 1 stn=0,IPInterface=IPINT_SA573_ABIS primarySubNetMask 255.255.255.192
+setmoattribute 1 stn=0,IPInterface=IPINT_SA573_ABIS depLinkLayer STN=0,vlangroup=VG_SA573_PD,vlan=VLAN_SA573_ABIS
+
+createmo 1 STN=0,RoutingTable=0,IpRoute=IPROU_SA573_SYNC
+setmoattribute 1 STN=0,RoutingTable=0,IpRoute=IPROU_SA573_SYNC destIpSubnet 10.170.35.248/29
+setmoattribute 1 STN=0,RoutingTable=0,IpRoute=IPROU_SA573_SYNC nextHopIpAddress 10.64.62.1
+setmoattribute 1 STN=0,RoutingTable=0,IpRoute=IPROU_SA573_SYNC forwardingInterface STN=0,IPInterface=IPINT_SA573_SYNC
+setmoattribute 1 STN=0,RoutingTable=0,IpRoute=IPROU_SA573_SYNC disableConnectivityCheck TRUE
+
+createmo 1 STN=0,RoutingTable=0,IpRoute=IPROU_SA573_SYNC_2
+setmoattribute 1 STN=0,RoutingTable=0,IpRoute=IPROU_SA573_SYNC_2 destIpSubnet 10.170.44.248/29
+setmoattribute 1 STN=0,RoutingTable=0,IpRoute=IPROU_SA573_SYNC_2 nextHopIpAddress 10.64.62.1
+setmoattribute 1 STN=0,RoutingTable=0,IpRoute=IPROU_SA573_SYNC_2 forwardingInterface STN=0,IPInterface=IPINT_SA573_SYNC
+setmoattribute 1 STN=0,RoutingTable=0,IpRoute=IPROU_SA573_SYNC_2 disableConnectivityCheck TRUE
+
+
+createmo 1 STN=0,RoutingTable=0,IpRoute=IPROU_SA573_OAM
+setmoattribute 1 STN=0,RoutingTable=0,IpRoute=IPROU_SA573_OAM destIpSubnet 0.0.0.0/0
+setmoattribute 1 STN=0,RoutingTable=0,IpRoute=IPROU_SA573_OAM nextHopIpAddress 10.65.200.129
+setmoattribute 1 STN=0,RoutingTable=0,IpRoute=IPROU_SA573_OAM forwardingInterface STN=0,IPInterface=IPINT_SA573_OAM 
+setmoattribute 1 STN=0,RoutingTable=0,IpRoute=IPROU_SA573_OAM disableConnectivityCheck TRUE
+
+createmo 1 STN=0,RoutingTable=0,IpRoute=IPROU_SA573_ABIS
+setmoattribute 1 STN=0,RoutingTable=0,IpRoute=IPROU_SA573_ABIS destIpSubnet  172.41.241.36/24
+setmoattribute 1 STN=0,RoutingTable=0,IpRoute=IPROU_SA573_ABIS nextHopIpAddress 10.33.202.1
+setmoattribute 1 STN=0,RoutingTable=0,IpRoute=IPROU_SA573_ABIS forwardingInterface STN=0,IPInterface=IPINT_SA573_ABIS
+setmoattribute 1 STN=0,RoutingTable=0,IpRoute=IPROU_SA573_ABIS disableConnectivityCheck TRUE
+
+setmoattribute 1 STN=0,Synchronization=0 synchType timeServer
+setmoattribute 1 STN=0,Synchronization=0 depIP_Interface STN=0,IPInterface=IPINT_SA573_SYNC
+setmoattribute 1 STN=0,Synchronization=0 DSCP_Synchronization 46
+
+createmo 1 STN=0,Synchronization=0,TimeServer=SERVT_NTP1
+setmoattribute 1 STN=0,Synchronization=0,TimeServer=SERVT_NTP1 TS_Priority 10
+setmoattribute 1 STN=0,Synchronization=0,TimeServer=SERVT_NTP1 TS_IP_Address 10.170.35.253
+setmoattribute 1 STN=0,Synchronization=0,TimeServer=SERVT_NTP1 timeServerType NTP
+setmoattribute 1 STN=0,Synchronization=0,TimeServer=SERVT_NTP1 STN_TS_UDP_Port 123
+
+createmo 1 STN=0,Synchronization=0,TimeServer=SERVT_NTP2
+setmoattribute 1 STN=0,Synchronization=0,TimeServer=SERVT_NTP2 TS_Priority 20
+setmoattribute 1 STN=0,Synchronization=0,TimeServer=SERVT_NTP2 TS_IP_Address 10.170.35.254
+setmoattribute 1 STN=0,Synchronization=0,TimeServer=SERVT_NTP2 timeServerType NTP
+setmoattribute 1 STN=0,Synchronization=0,TimeServer=SERVT_NTP2 STN_TS_UDP_Port 123
+
+createmo 1 STN=0,Synchronization=0,TimeServer=SERVT_NTP3
+setmoattribute 1 STN=0,Synchronization=0,TimeServer=SERVT_NTP3 TS_Priority 30
+setmoattribute 1 STN=0,Synchronization=0,TimeServer=SERVT_NTP3 TS_IP_Address 10.170.44.253
+setmoattribute 1 STN=0,Synchronization=0,TimeServer=SERVT_NTP3 timeServerType NTP
+setmoattribute 1 STN=0,Synchronization=0,TimeServer=SERVT_NTP3 STN_TS_UDP_Port 123
+
+
+
+checkconsistency 1
+commit 1 forcedcommit
+endtransaction 1
+
+

@@ -1,0 +1,70 @@
+confb+
+gs+
+
+fi
+
+crn NodeSupport=1,SectorEquipmentFunction=1
+administrativeState 1
+mixedModeRadio false
+rfBranchRef 
+userLabel LTE2600
+end
+
+crn NodeSupport=1,SectorEquipmentFunction=2
+administrativeState 1
+mixedModeRadio false
+rfBranchRef 
+userLabel LTE2600
+end
+
+crn NodeSupport=1,SectorEquipmentFunction=3
+administrativeState 1
+mixedModeRadio false
+rfBranchRef 
+userLabel LTE2600
+end
+
+crn NodeSupport=1,SectorEquipmentFunction=4
+administrativeState 1
+mixedModeRadio false
+rfBranchRef 
+userLabel LTE700
+end
+
+crn NodeSupport=1,SectorEquipmentFunction=5
+administrativeState 1
+mixedModeRadio false
+rfBranchRef 
+userLabel LTE700
+end
+
+crn NodeSupport=1,SectorEquipmentFunction=6
+administrativeState 1
+mixedModeRadio false
+rfBranchRef 
+userLabel LTE700
+end
+
+crn NodeSupport=1,SectorEquipmentFunction=7
+administrativeState 0
+mixedModeRadio false
+rfBranchRef 
+userLabel LTE1900
+end
+
+crn NodeSupport=1,SectorEquipmentFunction=8
+administrativeState 0
+mixedModeRadio false
+rfBranchRef 
+userLabel LTE1900
+end
+
+crn NodeSupport=1,SectorEquipmentFunction=9
+administrativeState 0
+mixedModeRadio false
+rfBranchRef 
+userLabel LTE1900
+end
+
+gs-
+confb-

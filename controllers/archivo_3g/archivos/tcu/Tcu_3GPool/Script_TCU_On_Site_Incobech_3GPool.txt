@@ -1,0 +1,184 @@
+--------------------------------------------------------
+Fecha Creacion 25/09/2017 11:10:31
+Script_TCU_3GPool_
+Nemonico del POP 3GPool
+Name_Site 2G_3G
+Generador INCOBECH Usuario LUIS ALDAY
+Team_Integracion
+--------------------------------------------------------
+
+resettofactorysetting
+deleteaimo
+starttransaction 1
+
+
+setmoattribute 1 stn=0 stn_name 
+setmoattribute 1 stn=0 wakeUpDestination 
+setmoattribute 1 stn=0 wakeUpEventInterval 1
+setmoattribute 1 stn=0 DSCP_OperationAndMaintenance 
+setmoattribute 1 stn=0 systemClockTimeServer 
+setmoattribute 1 stn=0 systemClockTimeServerType NTP
+setmoattribute 1 stn=0 STN_systemClockUDP_Port 
+setmoattribute 1 stn=0 DSCP_OM_filetransfer 
+setmoattribute 1 stn=0 promptPrefix 
+
+createmo 1 stn=0,bridge=
+createmo 1 stn=0,bridge=
+createmo 1 stn=0,bridge=
+createmo 1 stn=0,bridge=
+createmo 1 stn=0,bridge=
+createmo 1 stn=0,bridge=
+createmo 1 stn=0,bridge=
+createmo 1 stn=0,bridge=
+
+createmo 1 stn=0,vlangroup=
+setmoattribute 1 stn=0,vlangroup= deplinklayer stn=0,ethernetinterface=
+
+createmo 1 stn=0,vlangroup=
+setmoattribute 1 stn=0,vlangroup= deplinklayer stn=0,ethernetinterface=
+
+createmo 1 stn=0,vlangroup=
+setmoattribute 1 stn=0,vlangroup= deplinklayer stn=0,ethernetinterface=
+
+createmo 1 stn=0,vlangroup=
+setmoattribute 1 stn=0,vlangroup= deplinklayer stn=0,ethernetinterface=
+
+
+createmo 1 stn=0,vlangroup=,vlan=
+setmoattribute 1 stn=0,vlangroup=,vlan= tagvalue 18
+setmoattribute 1 stn=0,vlangroup=,vlan= tagged true
+setmoattribute 1 stn=0,vlangroup=,vlan= depBridge STN=0,Bridge=
+
+createmo 1 stn=0,vlangroup=,vlan=
+setmoattribute 1 stn=0,vlangroup=,vlan= tagvalue 23
+setmoattribute 1 stn=0,vlangroup=,vlan= tagged true
+setmoattribute 1 stn=0,vlangroup=,vlan= depBridge STN=0,Bridge=
+
+createmo 1 stn=0,vlangroup=,vlan=
+setmoattribute 1 stn=0,vlangroup=,vlan= tagvalue 
+setmoattribute 1 stn=0,vlangroup=,vlan= tagged true
+
+createmo 1 stn=0,vlangroup=,vlan=
+setmoattribute 1 stn=0,vlangroup=,vlan= tagvalue 
+setmoattribute 1 stn=0,vlangroup=,vlan= tagged true
+setmoattribute 1 stn=0,vlangroup=,vlan= depBridge STN=0,Bridge=
+
+createmo 1 stn=0,vlangroup=,vlan=
+setmoattribute 1 stn=0,vlangroup=,vlan= tagvalue 
+setmoattribute 1 stn=0,vlangroup=,vlan= tagged true
+setmoattribute 1 stn=0,vlangroup=,vlan= depBridge STN=0,Bridge=
+
+createmo 1 stn=0,vlangroup=,vlan=
+setmoattribute 1 stn=0,vlangroup=,vlan= tagvalue 
+setmoattribute 1 stn=0,vlangroup=,vlan= tagged true
+setmoattribute 1 stn=0,vlangroup=,vlan= depBridge STN=0,Bridge=
+
+createmo 1 stn=0,vlangroup=,vlan=
+setmoattribute 1 stn=0,vlangroup=,vlan= tagvalue 
+setmoattribute 1 stn=0,vlangroup=,vlan= tagged true
+setmoattribute 1 stn=0,vlangroup=,vlan= depBridge STN=0,Bridge=
+
+createmo 1 stn=0,vlangroup=,vlan=
+setmoattribute 1 stn=0,vlangroup=,vlan= tagvalue 
+setmoattribute 1 stn=0,vlangroup=,vlan= tagged true
+setmoattribute 1 stn=0,vlangroup=,vlan= depBridge STN=0,Bridge=
+
+createmo 1 stn=0,vlangroup=,vlan=
+setmoattribute 1 stn=0,vlangroup=,vlan= tagvalue 
+setmoattribute 1 stn=0,vlangroup=,vlan= tagged true
+setmoattribute 1 stn=0,vlangroup=,vlan= depBridge STN=0,Bridge=
+
+createmo 1 stn=0,vlangroup=,vlan=
+setmoattribute 1 stn=0,vlangroup=,vlan= tagvalue 
+setmoattribute 1 stn=0,vlangroup=,vlan= tagged true
+setmoattribute 1 stn=0,vlangroup=,vlan= depBridge STN=0,Bridge=
+
+createmo 1 stn=0,vlangroup=,vlan=
+setmoattribute 1 stn=0,vlangroup=,vlan= tagvalue 
+setmoattribute 1 stn=0,vlangroup=,vlan= tagged true
+setmoattribute 1 stn=0,vlangroup=,vlan= depBridge STN=0,Bridge=
+
+createmo 1 stn=0,vlangroup=,vlan=
+setmoattribute 1 stn=0,vlangroup=,vlan= tagvalue 
+setmoattribute 1 stn=0,vlangroup=,vlan= tagged true
+setmoattribute 1 stn=0,vlangroup=,vlan= depBridge STN=0,Bridge=
+
+createmo 1 stn=0,vlangroup=,vlan=
+setmoattribute 1 stn=0,vlangroup=,vlan= tagvalue 
+setmoattribute 1 stn=0,vlangroup=,vlan= tagged true
+setmoattribute 1 stn=0,vlangroup=,vlan= depBridge STN=0,Bridge=
+
+
+createmo 1 stn=0,ipinterface=
+setmoattribute 1 stn=0 depip_interface stn=0,ipinterface=
+setmoattribute 1 stn=0,IPInterface= primaryIP_Address 
+setmoattribute 1 stn=0,IPInterface= primarySubNetMask 
+setmoattribute 1 stn=0,IPInterface= depLinkLayer STN=0,Bridge=
+
+createmo 1 stn=0,ipinterface=
+setmoattribute 1 stn=0,IPInterface= primaryIP_Address 
+setmoattribute 1 stn=0,IPInterface= primarySubNetMask 
+setmoattribute 1 stn=0,IPInterface= depLinkLayer STN=0,Bridge=
+
+!Parámetros_Servicios_2G
+
+createmo 1 stn=0,ipinterface=
+setmoattribute 1 stn=0,IPInterface= destIpSubnet 
+setmoattribute 1 stn=0,IPInterface= primaryIP_Address 
+setmoattribute 1 stn=0,IPInterface= primarySubNetMask 
+setmoattribute 1 stn=0,IPInterface= depLinkLayer STN=0,vlangroup=,vlan=
+
+createmo 1 STN=0,RoutingTable=0,IpRoute=
+setmoattribute 1 STN=0,RoutingTable=0,IpRoute= destIpSubnet 
+setmoattribute 1 STN=0,RoutingTable=0,IpRoute= nextHopIpAddress 
+setmoattribute 1 STN=0,RoutingTable=0,IpRoute= forwardingInterface STN=0,IPInterface=
+setmoattribute 1 STN=0,RoutingTable=0,IpRoute= disableConnectivityCheck TRUE
+
+createmo 1 STN=0,RoutingTable=0,IpRoute=
+setmoattribute 1 STN=0,RoutingTable=0,IpRoute= destIpSubnet 
+setmoattribute 1 STN=0,RoutingTable=0,IpRoute= nextHopIpAddress 10.64.62.1
+setmoattribute 1 STN=0,RoutingTable=0,IpRoute= forwardingInterface STN=0,IPInterface=
+setmoattribute 1 STN=0,RoutingTable=0,IpRoute= disableConnectivityCheck TRUE
+
+
+createmo 1 STN=0,RoutingTable=0,IpRoute=
+setmoattribute 1 STN=0,RoutingTable=0,IpRoute= destIpSubnet 0.0.0.0/0
+setmoattribute 1 STN=0,RoutingTable=0,IpRoute= nextHopIpAddress 
+setmoattribute 1 STN=0,RoutingTable=0,IpRoute= forwardingInterface STN=0,IPInterface=
+setmoattribute 1 STN=0,RoutingTable=0,IpRoute= disableConnectivityCheck TRUE
+
+createmo 1 STN=0,RoutingTable=0,IpRoute=
+setmoattribute 1 STN=0,RoutingTable=0,IpRoute= destIpSubnet /24
+setmoattribute 1 STN=0,RoutingTable=0,IpRoute= nextHopIpAddress 
+setmoattribute 1 STN=0,RoutingTable=0,IpRoute= forwardingInterface STN=0,IPInterface=
+setmoattribute 1 STN=0,RoutingTable=0,IpRoute= disableConnectivityCheck TRUE
+
+setmoattribute 1 STN=0,Synchronization=0 synchType timeServer
+setmoattribute 1 STN=0,Synchronization=0 depIP_Interface STN=0,IPInterface=
+setmoattribute 1 STN=0,Synchronization=0 DSCP_Synchronization 
+
+createmo 1 STN=0,Synchronization=0,TimeServer=SERVT_NTP1
+setmoattribute 1 STN=0,Synchronization=0,TimeServer=SERVT_NTP1 TS_Priority 
+setmoattribute 1 STN=0,Synchronization=0,TimeServer=SERVT_NTP1 TS_IP_Address 
+setmoattribute 1 STN=0,Synchronization=0,TimeServer=SERVT_NTP1 timeServerType NTP
+setmoattribute 1 STN=0,Synchronization=0,TimeServer=SERVT_NTP1 STN_TS_UDP_Port 
+
+createmo 1 STN=0,Synchronization=0,TimeServer=SERVT_NTP2
+setmoattribute 1 STN=0,Synchronization=0,TimeServer=SERVT_NTP2 TS_Priority 
+setmoattribute 1 STN=0,Synchronization=0,TimeServer=SERVT_NTP2 TS_IP_Address 
+setmoattribute 1 STN=0,Synchronization=0,TimeServer=SERVT_NTP2 timeServerType NTP
+setmoattribute 1 STN=0,Synchronization=0,TimeServer=SERVT_NTP2 STN_TS_UDP_Port 
+
+createmo 1 STN=0,Synchronization=0,TimeServer=SERVT_NTP3
+setmoattribute 1 STN=0,Synchronization=0,TimeServer=SERVT_NTP3 TS_Priority 30
+setmoattribute 1 STN=0,Synchronization=0,TimeServer=SERVT_NTP3 TS_IP_Address 
+setmoattribute 1 STN=0,Synchronization=0,TimeServer=SERVT_NTP3 timeServerType NTP
+setmoattribute 1 STN=0,Synchronization=0,TimeServer=SERVT_NTP3 STN_TS_UDP_Port 
+
+
+
+checkconsistency 1
+commit 1 forcedcommit
+endtransaction 1
+
+

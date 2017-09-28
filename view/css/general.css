@@ -1,0 +1,229 @@
+body
+{
+/* background: url("../img/fondo.jpg") no-repeat fixed center 100%; */
+	background: url("../img/fondo.png");
+/* 	background-repeat:no-repeat;  */
+	background-size: cover;	
+	margin-left: 20%;
+	margin-right:20%;
+}
+fieldset
+{
+	/*background-image: url("../img/sigesp_img_fondopantalla.jpg");*/
+	background:#fff; 
+	/* border-radius: 6px; */
+	margin-top: 3%;
+	/* box-shadow: 0px 3px 10px #000; */
+}
+
+img
+{
+	margin: 0 auto;
+}
+
+#cabecera
+{
+  border-radius: 2px;
+  width:100%;  
+  margin-top: 3%;  
+}
+
+#salida
+{
+	background-image: url("../img/salir-off.gif");
+	background-repeat:no-repeat;
+	float:right;
+	width:22px;
+	height:22px;
+}
+
+#salida:hover
+{
+	background-image: url("../img/salir.gif");
+	background-repeat:no-repeat;
+}
+
+.caja
+{
+	font-size:70%;
+	/*border: 1px solid rgb(160,160,160);
+	border-radius: 2px;*/
+	width: 83px;	
+	height:80px;
+	margin: 20px; auto;
+	transition: all 0.5s ease;
+	-webkit-box-reflect: below 0px -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(.7, transparent), to(rgba(0,0,0,0.1)));
+}
+
+.caja:hover
+{
+	/*background-color:#D0D0D0;
+	border-radius: 10px;
+	color: #000;*/
+	transform: scale(1.5);
+	/*opacity: 0.6;*/
+}
+
+a
+{
+	color: #000;
+	text-decoration: none;
+}
+
+#box1
+{
+	/*background: url("../../vista/img/actividad.jpg");*/
+	background-repeat:no-repeat;
+	float:left;	
+	/*margin-left: 13%;*/
+	margin-right:5%;
+	margin-top: 1%;
+	
+}
+
+#box1:hover
+{
+	background-image: url("../img/fijos.gif");
+	background-repeat:no-repeat;
+}
+
+#box2
+{
+	background-image: url("../img/contabilidad_off.gif");
+	background-repeat:no-repeat;
+	float:left;
+	margin-left: 13%;
+	margin-right:5%;
+	margin-top: 1%;
+}
+
+#box2:hover
+{
+	background-image: url("../img/contabilidad.gif");
+	background-repeat:no-repeat;
+}
+
+#box3
+{
+	background-image: url("../img/gastos_off.gif");
+	background-repeat:no-repeat;
+	float:left;
+	margin-left: 13%;
+	margin-right:5%;
+	margin-top: 1%;
+}
+
+#box3:hover
+{
+	background-image: url("../img/gastos.gif");
+	background-repeat:no-repeat;
+}
+
+#box4
+{
+	background-image: url("../img/nomina_off.gif");
+	background-repeat:no-repeat;
+	float:left;
+	margin-left: 13%;
+	margin-right:5%;
+	margin-top: 1%;
+}
+
+
+#box4:hover
+{
+	background-image: url("../img/nomina.gif");
+	background-repeat:no-repeat;
+}
+
+
+#box5
+{
+	background-image: url("../img/apertura_off.gif");
+	background-repeat:no-repeat;
+	float:left;
+	margin-left: 13%;
+	margin-right:5%;
+	margin-top: 1%;
+}
+
+
+#box5:hover
+{
+	background-image: url("../img/apertura.gif");
+	background-repeat:no-repeat;
+}
+
+#box6
+{
+	background-image: url("../img/banco_off.gif");
+	background-repeat:no-repeat;
+	float:left;
+	margin-left: 13%;
+	margin-right:5%;
+	margin-top: 1%;
+}
+
+
+#box6:hover
+{
+	background-image: url("../img/banco.gif");
+	background-repeat:no-repeat;
+}
+
+#box7
+{
+	background-image: url("../img/pagar_off.gif");
+	background-repeat:no-repeat;
+	float:left;
+	margin-left: 13%;
+	margin-right:5%;
+	margin-top: 1%;
+}
+
+
+#box7:hover
+{
+	background-image: url("../img/pagar.gif");
+	background-repeat:no-repeat;
+}
+
+#box8
+{
+	background-image: url("../img/proveedores_off.gif");
+	background-repeat:no-repeat;
+	float:left;
+	margin-left: 13%;
+	margin-right:5%;
+	margin-top: 1%;
+}
+
+
+#box8:hover
+{
+	background-image: url("../img/proveedores.gif");
+	background-repeat:no-repeat;
+}
+
+.botones
+{
+  color: #d7d7d7;
+  border: solid 1px #333;
+  border-radius: 5px;
+  background: #333;
+  background: -webkit-gradient(linear, left top, left bottom, from(#666), to(#000));
+  background: -moz-linear-gradient(top,  #666,  #000);
+  filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#666666', endColorstr='#000000');
+}
+
+.botones:hover
+{
+  background: #000;
+  background: -webkit-gradient(linear, left top, left bottom, from(#444), to(#000));
+  background: -moz-linear-gradient(top,  #444,  #000);
+  filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#444444', endColorstr='#000000');
+}
+
+.botones:active {
+
+}

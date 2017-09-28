@@ -1,0 +1,218 @@
+--------------------------------------------------------
+Fecha Creacion 17/08/2017 16:15:15
+Script_TCU_SA675_
+Nemonico del POP SA675
+Name_Site LO ETCHEVERS
+Generador INCOBECH
+Team_Integracion
+--------------------------------------------------------
+## +------------------------------------------------+ ##
+## |       CREATION OF SERVICE 2G VOICE             | ##
+## +------------------------------------------------+ ##
+starttransaction 1
+
+createmo 1 STN=0,E1T1Interface=0
+setmoattribute 1 STN=0,E1T1Interface=0 type e1
+
+createmo 1 STN=0,TGTransport=STN_SA675-0
+setmoattribute 1 STN=0,TGTransport=STN_SA675-0 depIP_Interface STN=0,IPInterface=
+setmoattribute 1 STN=0,TGTransport=STN_SA675-0  pgw_ip_address 10.170.66.164
+setmoattribute 1 STN=0,TGTransport=STN_SA675-0  DSCP_L2TP_CP 44
+createmo 1 STN=0,TGTransport=STN_SA675-0,SuperChannel=0
+setmoattribute 1 STN=0,TGTransport=STN_SA675-0,SuperChannel=0 depE1T1Interface 0
+
+
+createmo 1 STN=0,TrafficManager=
+setmoattribute 1 STN=0,TrafficManager= schedulerMeanRate 1000000
+setmoattribute 1 STN=0,TrafficManager= schedulerMaxBurstSize 32768
+setmoattribute 1 STN=0,TrafficManager= diffServAlgDropQThreshold_1 32768
+setmoattribute 1 STN=0,TrafficManager= diffServMinRateRelative_1 -1
+setmoattribute 1 STN=0,TrafficManager= diffServAlgDropQThreshold_2 65536
+setmoattribute 1 STN=0,TrafficManager= diffServMinRateRelative_2 400
+setmoattribute 1 STN=0,TrafficManager= diffServAlgDropQThreshold_3 1024000
+setmoattribute 1 STN=0,TrafficManager= diffServMinRateRelative_3 300
+setmoattribute 1 STN=0,TrafficManager= diffServAlgDropQThreshold_4 256
+setmoattribute 1 STN=0,TrafficManager= diffServMinRateRelative_4 0
+setmoattribute 1 STN=0,TrafficManager= diffServAlgDropQThreshold_5 256
+setmoattribute 1 STN=0,TrafficManager= diffServMinRateRelative_5 0
+setmoattribute 1 STN=0,TrafficManager= diffServAlgDropQThreshold_6 256
+setmoattribute 1 STN=0,TrafficManager= diffServMinRateRelative_6 0
+setmoattribute 1 STN=0,TrafficManager= diffServAlgDropQThreshold_7 256
+setmoattribute 1 STN=0,TrafficManager= diffServMinRateRelative_7 0
+setmoattribute 1 STN=0,TrafficManager= diffServAlgDropQThreshold_8 1024000
+setmoattribute 1 STN=0,TrafficManager= diffServMinRateRelative_8 200
+setmoattribute 1 STN=0,TrafficManager= depQosPolicy STN=0,QosPolicy=Nombre
+
+
+createmo 1 STN=0,PingMeasurement=0
+setmoattribute 1 STN=0,PingMeasurement=0 pingDestination 10.170.66.164
+setmoattribute 1 STN=0,PingMeasurement=0 pingDSCP 40
+setmoattribute 1 STN=0,PingMeasurement=0 depIP_Interface STN=0,IPInterface=
+
+
+createmo 1 STN=0,TwampResponder=0
+setmoattribute 1 STN=0,TwampResponder=0 udpPort 4001
+setmoattribute 1 STN=0,TwampResponder=0 depIP_Interface STN=0,IPInterface=
+createmo 1 STN=0,TwampResponder=1
+setmoattribute 1 STN=0,TwampResponder=1 udpPort 4002
+setmoattribute 1 STN=0,TwampResponder=1 depIP_Interface STN=0,IPInterface=
+createmo 1 STN=0,TwampResponder=2
+setmoattribute 1 STN=0,TwampResponder=2 udpPort 4003
+setmoattribute 1 STN=0,TwampResponder=2 depIP_Interface STN=0,IPInterface=
+createmo 1 STN=0,TwampResponder=3
+setmoattribute 1 STN=0,TwampResponder=3 udpPort 4004
+setmoattribute 1 STN=0,TwampResponder=3 depIP_Interface STN=0,IPInterface=
+
+
+createmo 1 STN=0,Synchronization=0,SynchEthInterface=0
+setmoattribute 1 STN=0,Synchronization=0,SynchEthInterface=0 depEthernetInterface STN=0,EthernetInterface=P4_SA869_LTE
+setmoattribute 1 STN=0,Synchronization=0,SynchEthInterface=0 ssmQLminimum QL-SSU-A
+createmo 1 STN=0,Synchronization=0,SynchEthInterface=1
+setmoattribute 1 STN=0,Synchronization=0,SynchEthInterface=1 depEthernetInterface STN=0,EthernetInterface=P1B_SA869_1900
+setmoattribute 1 STN=0,Synchronization=0,SynchEthInterface=1 ssmQLminimum QL-SSU-A
+createmo 1 STN=0,Synchronization=0,SynchEthInterface=2
+setmoattribute 1 STN=0,Synchronization=0,SynchEthInterface=2 depEthernetInterface STN=0,EthernetInterface=P3B_SA869_900
+setmoattribute 1 STN=0,Synchronization=0,SynchEthInterface=2 ssmQLminimum QL-SSU-A
+
+
+createmo 1 STN=0,FmSubscription=1
+setmoattribute 1 STN=0,FmSubscription=1 managerIpAddress 10.170.14.74
+createmo 1 STN=0,QosPolicy=Nombre
+setmoattribute 1 STN=0,QosPolicy=Nombre dscp2pcp0 0
+setmoattribute 1 STN=0,QosPolicy=Nombre dscp2pcp1 0
+setmoattribute 1 STN=0,QosPolicy=Nombre dscp2pcp2 0
+setmoattribute 1 STN=0,QosPolicy=Nombre dscp2pcp3 0
+setmoattribute 1 STN=0,QosPolicy=Nombre dscp2pcp4 0
+setmoattribute 1 STN=0,QosPolicy=Nombre dscp2pcp5 0
+setmoattribute 1 STN=0,QosPolicy=Nombre dscp2pcp6 0
+setmoattribute 1 STN=0,QosPolicy=Nombre dscp2pcp7 0
+setmoattribute 1 STN=0,QosPolicy=Nombre dscp2pcp8 0
+setmoattribute 1 STN=0,QosPolicy=Nombre dscp2pcp9 0
+setmoattribute 1 STN=0,QosPolicy=Nombre dscp2pcp10 0
+setmoattribute 1 STN=0,QosPolicy=Nombre dscp2pcp11 0
+setmoattribute 1 STN=0,QosPolicy=Nombre dscp2pcp12 0
+setmoattribute 1 STN=0,QosPolicy=Nombre dscp2pcp13 0
+setmoattribute 1 STN=0,QosPolicy=Nombre dscp2pcp14 0
+setmoattribute 1 STN=0,QosPolicy=Nombre dscp2pcp15 0
+setmoattribute 1 STN=0,QosPolicy=Nombre dscp2pcp16 0
+setmoattribute 1 STN=0,QosPolicy=Nombre dscp2pcp17 0
+setmoattribute 1 STN=0,QosPolicy=Nombre dscp2pcp18 3
+setmoattribute 1 STN=0,QosPolicy=Nombre dscp2pcp19 0
+setmoattribute 1 STN=0,QosPolicy=Nombre dscp2pcp20 3
+setmoattribute 1 STN=0,QosPolicy=Nombre dscp2pcp21 0
+setmoattribute 1 STN=0,QosPolicy=Nombre dscp2pcp22 1
+setmoattribute 1 STN=0,QosPolicy=Nombre dscp2pcp23 0
+setmoattribute 1 STN=0,QosPolicy=Nombre dscp2pcp24 0
+setmoattribute 1 STN=0,QosPolicy=Nombre dscp2pcp25 0
+setmoattribute 1 STN=0,QosPolicy=Nombre dscp2pcp26 3
+setmoattribute 1 STN=0,QosPolicy=Nombre dscp2pcp27 0
+setmoattribute 1 STN=0,QosPolicy=Nombre dscp2pcp28 3
+setmoattribute 1 STN=0,QosPolicy=Nombre dscp2pcp29 0
+setmoattribute 1 STN=0,QosPolicy=Nombre dscp2pcp30 0
+setmoattribute 1 STN=0,QosPolicy=Nombre dscp2pcp31 0
+setmoattribute 1 STN=0,QosPolicy=Nombre dscp2pcp32 0
+setmoattribute 1 STN=0,QosPolicy=Nombre dscp2pcp33 0
+setmoattribute 1 STN=0,QosPolicy=Nombre dscp2pcp34 0
+setmoattribute 1 STN=0,QosPolicy=Nombre dscp2pcp35 0
+setmoattribute 1 STN=0,QosPolicy=Nombre dscp2pcp36 0
+setmoattribute 1 STN=0,QosPolicy=Nombre dscp2pcp37 0
+setmoattribute 1 STN=0,QosPolicy=Nombre dscp2pcp38 4
+setmoattribute 1 STN=0,QosPolicy=Nombre dscp2pcp39 0
+setmoattribute 1 STN=0,QosPolicy=Nombre dscp2pcp40 5
+setmoattribute 1 STN=0,QosPolicy=Nombre dscp2pcp41 0
+setmoattribute 1 STN=0,QosPolicy=Nombre dscp2pcp42 5
+setmoattribute 1 STN=0,QosPolicy=Nombre dscp2pcp43 0
+setmoattribute 1 STN=0,QosPolicy=Nombre dscp2pcp44 5
+setmoattribute 1 STN=0,QosPolicy=Nombre dscp2pcp45 0
+setmoattribute 1 STN=0,QosPolicy=Nombre dscp2pcp46 5
+setmoattribute 1 STN=0,QosPolicy=Nombre dscp2pcp47 0
+setmoattribute 1 STN=0,QosPolicy=Nombre dscp2pcp48 0
+setmoattribute 1 STN=0,QosPolicy=Nombre dscp2pcp49 0
+setmoattribute 1 STN=0,QosPolicy=Nombre dscp2pcp50 0
+setmoattribute 1 STN=0,QosPolicy=Nombre dscp2pcp51 0
+setmoattribute 1 STN=0,QosPolicy=Nombre dscp2pcp52 0
+setmoattribute 1 STN=0,QosPolicy=Nombre dscp2pcp53 0
+setmoattribute 1 STN=0,QosPolicy=Nombre dscp2pcp54 0
+setmoattribute 1 STN=0,QosPolicy=Nombre dscp2pcp55 0
+setmoattribute 1 STN=0,QosPolicy=Nombre dscp2pcp56 0
+setmoattribute 1 STN=0,QosPolicy=Nombre dscp2pcp57 0
+setmoattribute 1 STN=0,QosPolicy=Nombre dscp2pcp58 0
+setmoattribute 1 STN=0,QosPolicy=Nombre dscp2pcp59 0
+setmoattribute 1 STN=0,QosPolicy=Nombre dscp2pcp60 0
+setmoattribute 1 STN=0,QosPolicy=Nombre dscp2pcp61 0
+setmoattribute 1 STN=0,QosPolicy=Nombre dscp2pcp62 0
+setmoattribute 1 STN=0,QosPolicy=Nombre dscp2pcp63 0
+setmoattribute 1 STN=0,QosPolicy=Nombre dscp2q0 8
+setmoattribute 1 STN=0,QosPolicy=Nombre dscp2q1 8
+setmoattribute 1 STN=0,QosPolicy=Nombre dscp2q2 8
+setmoattribute 1 STN=0,QosPolicy=Nombre dscp2q3 8
+setmoattribute 1 STN=0,QosPolicy=Nombre dscp2q4 8
+setmoattribute 1 STN=0,QosPolicy=Nombre dscp2q5 8
+setmoattribute 1 STN=0,QosPolicy=Nombre dscp2q6 8
+setmoattribute 1 STN=0,QosPolicy=Nombre dscp2q7 8
+setmoattribute 1 STN=0,QosPolicy=Nombre dscp2q8 8
+setmoattribute 1 STN=0,QosPolicy=Nombre dscp2q9 8
+setmoattribute 1 STN=0,QosPolicy=Nombre dscp2q10 8
+setmoattribute 1 STN=0,QosPolicy=Nombre dscp2q11 8
+setmoattribute 1 STN=0,QosPolicy=Nombre dscp2q12 8
+setmoattribute 1 STN=0,QosPolicy=Nombre dscp2q13 8
+setmoattribute 1 STN=0,QosPolicy=Nombre dscp2q14 8
+setmoattribute 1 STN=0,QosPolicy=Nombre dscp2q15 8
+setmoattribute 1 STN=0,QosPolicy=Nombre dscp2q16 8
+setmoattribute 1 STN=0,QosPolicy=Nombre dscp2q17 8
+setmoattribute 1 STN=0,QosPolicy=Nombre dscp2q18 3
+setmoattribute 1 STN=0,QosPolicy=Nombre dscp2q19 8
+setmoattribute 1 STN=0,QosPolicy=Nombre dscp2q20 3
+setmoattribute 1 STN=0,QosPolicy=Nombre dscp2q21 8
+setmoattribute 1 STN=0,QosPolicy=Nombre dscp2q22 8
+setmoattribute 1 STN=0,QosPolicy=Nombre dscp2q23 8
+setmoattribute 1 STN=0,QosPolicy=Nombre dscp2q24 8
+setmoattribute 1 STN=0,QosPolicy=Nombre dscp2q25 8
+setmoattribute 1 STN=0,QosPolicy=Nombre dscp2q26 3
+setmoattribute 1 STN=0,QosPolicy=Nombre dscp2q27 8
+setmoattribute 1 STN=0,QosPolicy=Nombre dscp2q28 3
+setmoattribute 1 STN=0,QosPolicy=Nombre dscp2q29 8
+setmoattribute 1 STN=0,QosPolicy=Nombre dscp2q30 8
+setmoattribute 1 STN=0,QosPolicy=Nombre dscp2q31 8
+setmoattribute 1 STN=0,QosPolicy=Nombre dscp2q32 8
+setmoattribute 1 STN=0,QosPolicy=Nombre dscp2q33 8
+setmoattribute 1 STN=0,QosPolicy=Nombre dscp2q34 8
+setmoattribute 1 STN=0,QosPolicy=Nombre dscp2q35 8
+setmoattribute 1 STN=0,QosPolicy=Nombre dscp2q36 8
+setmoattribute 1 STN=0,QosPolicy=Nombre dscp2q37 8
+setmoattribute 1 STN=0,QosPolicy=Nombre dscp2q38 2
+setmoattribute 1 STN=0,QosPolicy=Nombre dscp2q39 8
+setmoattribute 1 STN=0,QosPolicy=Nombre dscp2q40 1
+setmoattribute 1 STN=0,QosPolicy=Nombre dscp2q41 8
+setmoattribute 1 STN=0,QosPolicy=Nombre dscp2q42 1
+setmoattribute 1 STN=0,QosPolicy=Nombre dscp2q43 8
+setmoattribute 1 STN=0,QosPolicy=Nombre dscp2q44 1
+setmoattribute 1 STN=0,QosPolicy=Nombre dscp2q45 8
+setmoattribute 1 STN=0,QosPolicy=Nombre dscp2q46 1
+setmoattribute 1 STN=0,QosPolicy=Nombre dscp2q47 8
+setmoattribute 1 STN=0,QosPolicy=Nombre dscp2q48 8
+setmoattribute 1 STN=0,QosPolicy=Nombre dscp2q49 8
+setmoattribute 1 STN=0,QosPolicy=Nombre dscp2q50 8
+setmoattribute 1 STN=0,QosPolicy=Nombre dscp2q51 8
+setmoattribute 1 STN=0,QosPolicy=Nombre dscp2q52 8
+setmoattribute 1 STN=0,QosPolicy=Nombre dscp2q53 8
+setmoattribute 1 STN=0,QosPolicy=Nombre dscp2q54 8
+setmoattribute 1 STN=0,QosPolicy=Nombre dscp2q55 8
+setmoattribute 1 STN=0,QosPolicy=Nombre dscp2q56 8
+setmoattribute 1 STN=0,QosPolicy=Nombre dscp2q57 8
+setmoattribute 1 STN=0,QosPolicy=Nombre dscp2q58 8
+setmoattribute 1 STN=0,QosPolicy=Nombre dscp2q59 8
+setmoattribute 1 STN=0,QosPolicy=Nombre dscp2q60 8
+setmoattribute 1 STN=0,QosPolicy=Nombre dscp2q61 8
+setmoattribute 1 STN=0,QosPolicy=Nombre dscp2q62 8
+setmoattribute 1 STN=0,QosPolicy=Nombre dscp2q63 8
+setmoattribute 1 STN=0,QosPolicy=Nombre L2QosMappingType DSCP2Queue
+setmoattribute 1 STN=0,QosPolicy=Nombre defaultPcp 0
+setmoattribute 1 STN=0,QosPolicy=Nombre pcp2q0 8
+setmoattribute 1 STN=0,QosPolicy=Nombre pcp2q1 8
+setmoattribute 1 STN=0,QosPolicy=Nombre pcp2q2 8
+setmoattribute 1 STN=0,QosPolicy=Nombre pcp2q3 3
+setmoattribute 1 STN=0,QosPolicy=Nombre pcp2q4 2
+setmoattribute 1 STN=0,QosPolicy=Nombre pcp2q5 1
+setmoattribute 1 STN=0,QosPolicy=Nombre pcp2q6 8
+setmoattribute 1 STN=0,QosPolicy=Nombre pcp2q7 8

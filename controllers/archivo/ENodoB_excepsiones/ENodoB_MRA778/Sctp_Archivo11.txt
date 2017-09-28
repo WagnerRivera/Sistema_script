@@ -1,0 +1,34 @@
+Columna == Site
+Columna == allowedIncrementCookieLife
+Columna == associationMaxRtx
+Columna == bundlingActivated
+Columna == bundlingTimer
+Columna == heartbeatInterval
+Columna == heartbeatPathProbingInterval
+Columna == heartbeatStatus
+Columna == initialAdRecWin
+Columna == initialRto
+Columna == intervalOobPkts
+Columna == keyChangePeriod
+Columna == maxBurst
+Columna == maxIncomingStream
+Columna == maxInitialRtrAtt
+Columna == maxOutgoingStream
+Columna == maxShutDownRtrAtt
+Columna == maxUserDataSize
+Columna == maximumRto
+Columna == minimumRto
+Columna == nPercentage
+Columna == pathMaxRtx
+Columna == pathSelection
+Columna == potentiallyFailedMaxRtx
+Columna == rtoAlphaIndex
+Columna == rtoBetaIndex
+Columna == sctpAssocDeleteTimeout
+Columna == switchbackMaxThreshold
+Columna == switchbackMinThreshold
+Columna == switchbackMode
+Columna == tSack
+Columna == validCookieLife
+Columna == 
+

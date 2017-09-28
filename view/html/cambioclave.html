@@ -1,0 +1,49 @@
+<!-- Default box -->
+<div class="box">
+
+<div class="box-header with-border">
+  <h3 class="box-title">Perfil de Usario</h3>
+
+  <div class="box-tools pull-right">
+    <button type="button" class="btn btn-box-tool" data-widget="remove" data-toggle="tooltip" title="remover">
+      <i class="fa fa-times"></i></button>
+    <!--<button type="button" class="btn btn-box-tool" data-widget="remove" data-toggle="tooltip" title="Remove">
+      <i class="fa fa-times"></i></button>-->
+  </div>
+</div>        
+<div class="box-body">
+	  <form action='{accion}' method='post' name="perfil">
+		  	<div class='box-body'>
+		  		<div class='form-group'>
+		    		<label>Correo: <h4>{correo}</h4></label>
+				</div>
+				<div class='form-group'>
+		    		<label>Nombre Completo: <h4>{nombre}</h4></label>
+				</div>
+				<div class='form-group'>
+		    		<label>Tipo de Usuario: <h4>{tipo}</h4></label>
+				</div>
+		    	<div class='form-group'>
+		    		<label>Cambio de Clave</label>						
+						<input type="password" name="clave" id="clave"class="form-control">
+				</div>
+				<div class='form-group'>
+		    		<label>Confirmar Clave</label>						
+						<input type="password" name="repetir" id="repetir" class="form-control">
+				</div>
+				<input type="hidden" name="id_usuario" value="{id_usuario}">
+				<input type="hidden" name="correo" value="{correo}">
+				<input type="hidden" name="accion" value="cambio">		
+			</div>
+			<div  class='box-footer'>
+				<button type="button" id="cambiar" onclick="validar_form('perfil', 'cambio')" class="btn btn-primary">Cambiar</button>
+			</div>
+	  </form>
+</div>
+<!-- /.box-body 
+<div class="box-footer">
+  Footer
+</div>-->
+<!-- /.box-footer-->
+</div>
+  <!-- /.box -->  

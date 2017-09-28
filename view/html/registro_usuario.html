@@ -1,0 +1,64 @@
+<!-- Default box -->
+<div class="box">
+
+<div class="box-header with-border">
+  <h3 class="box-title">Registro de Usarios</h3>
+
+  <div class="box-tools pull-right">
+    <button type="button" class="btn btn-box-tool" data-widget="remove" data-toggle="tooltip" title="remover">
+      <i class="fa fa-times"></i></button>
+    <!--<button type="button" class="btn btn-box-tool" data-widget="remove" data-toggle="tooltip" title="Remove">
+      <i class="fa fa-times"></i></button>-->
+  </div>
+</div>        
+<div class="box-body">
+	  <form action='{accion}' method='post' name="Restro_Usuario">
+		  	<div class='box-body'>
+		    	<div class='form-group'>
+		    		<label>Correo</label>						
+						<input type="text" name="correo" class="form-control">
+				</div>
+				<div class='form-group'>
+		    		<label>RUT</label>
+		    			<input type="num" name="rut" maxlength="10" class="form-control">
+				</div>
+				<div class='form-group'>
+		    		<label>Nombre</label>						
+						<input type="text" name="nombre" class="form-control">		 
+				</div>
+		    	<div class='form-group'>
+		    		<label>Apellido</label>
+		    			<input type="text" name="apellido" class="form-control">
+				</div>
+				<div class='form-group'>
+		    		<label>Permisos</label>
+		    			<select name="permiso" class="form-control">
+		    				<option>Seleccionar uuna Opción</option>
+		    				<option value="1">Administrador</option>
+		    				<option value="2">Supervisor</option>
+		    				<option value="3">Tecnico</option>
+		    			</select>
+				</div>
+				<div class='form-group'>
+		    		<label>Ingreso</label>
+		    			<select name="ingreso" class="form-control">
+		    				<option>Seleccionar una Opción</option>	
+		    				<option value="0">Registrado</option>
+		    				<option value="1">Activo</option>
+		    				<option value="2">Bloqueado</option>
+		    			</select>
+				</div>
+				<input type="hidden" name="accion" value="registro">		
+			</div>
+			<div  class='box-footer'>
+					<input type="submit" name="resgistro" id="registro" value='REGISTRAR' class='btn btn-primary'>
+			</div>
+	  </form>
+</div>
+<!-- /.box-body 
+<div class="box-footer">
+  Footer
+</div>-->
+<!-- /.box-footer-->
+</div>
+  <!-- /.box -->  

@@ -1,0 +1,37 @@
+Columna == Site
+Columna == alphaIndex
+Columna == assocMaxRtx
+Columna == betaIndex
+Columna == bundlingActivated
+Columna == bundlingAdaptiveActivated
+Columna == bundlingTimer
+Columna == cookieLife
+Columna == dscp
+Columna == hbMaxBurst
+Columna == heartbeatActivated
+Columna == heartbeatInterval
+Columna == incCookieLife
+Columna == initARWnd
+Columna == initRto
+Columna == initialHeartbeatInterval
+Columna == maxActivateThr
+Columna == maxBurst
+Columna == maxInStreams
+Columna == maxInitRt
+Columna == maxOutStreams
+Columna == maxRto
+Columna == maxSctpPduSize
+Columna == maxShutdownRt
+Columna == minActivateThr
+Columna == minRto
+Columna == noSwitchback
+Columna == pathMaxRtx
+Columna == primaryPathAvoidance
+Columna == primaryPathMaxRtx
+Columna == sackTimer
+Columna == sctpProfileId
+Columna == thrTransmitBuffer
+Columna == thrTransmitBufferCongCeased
+Columna == transmitBufferSize
+Columna == 
+
