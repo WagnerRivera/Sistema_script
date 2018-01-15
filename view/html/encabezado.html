@@ -1,0 +1,130 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Sistema De Archivos Script</title>
+
+<meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <!-- Tell the browser to be responsive to screen width -->
+  <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+  <link rel="shortcut icon" href="../view/img/photo_script.jpg" />
+
+  <!-- Bootstrap 3.3.5 -->
+  <link rel="stylesheet" href="../view/css/bootstrap/css/bootstrap.min.css"><!--edita el perfil del usuario mas -->
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+  <!--<link rel="stylesheet" href="../view/css/iconos_g_i.css">-->
+  <!-- Ionicons -->
+  <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+  <!-- Theme style -->
+  <link rel="stylesheet" href="../view/css/dist/css/AdminLTE.min.css">
+  <!-- AdminLTE Skins. Choose a skin from the css/skins
+       folder instead of downloading all of them to reduce the load. -->
+  <link rel="stylesheet" href="../view/css/dist/css/skins/_all-skins.min.css">
+   <script src="../view/js/validar.js" language="javascript"></script>
+   <script src = "https://unpkg.com/sweetalert/dist/sweetalert.min.js"> </script >
+   <script>
+    var mensajes='{mensaje}';
+    if(mensajes != '')
+      alert(mensajes);
+  </script> 
+  <style type="text/css">
+    #tooltip1 { position: relative; }
+    #tooltip1 a span { display: none; color: #369; top: 100px;}
+    #tooltip1 a:hover span { display: block; position: absolute; width: 170px; background: #aaa url("../view/img/bb5216.jpg"); height: 100px; left: 100px; top: -10px;  padding: 0 5px; border-radius: 5%; 
+  background-size: 100% auto;}
+  </style>
+</head>
+<!-- ADD THE CLASS layout-boxed TO GET A BOXED LAYOUT -->
+<body class="hold-transition skin-blue layout-boxed sidebar-mini" onload =" filtro(this.value, '{modulo}', 'web');">
+<!-- Site wrapper -->
+<div class="wrapper">
+
+  <header class="main-header">
+    <!-- Logo -->
+    <a href="" class="logo">
+      <!-- mini logo for sidebar mini 50x50 pixels -->
+      <span class="logo-mini"><b>S</b>T</span>
+      <!-- logo for regular state and mobile devices -->
+      <span class="logo-lg"><b>Menu</b>Script</span>
+    </a>
+    <!-- Header Navbar: style can be found in header.less -->
+    <nav class="navbar navbar-static-top" role="navigation">
+      <!-- Sidebar toggle button-->
+      <a href="#" class="sidebar-toggle" data-toggle="offcanvas" role="button">
+        <span class="sr-only">Menu de Navegacion</span>
+      </a>
+
+      <div class="navbar-custom-menu">
+        <ul class="nav navbar-nav">
+          <!-- Messages: style can be found in dropdown.less-->
+          
+          <!-- User Account: style can be found in dropdown.less -->
+          <li class="dropdown user user-menu">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+              <img src="../view/img/actividad.jpg" class="user-image" alt="User Image">
+              <span class="hidden-xs">Usuario Incobech</span>
+            </a>
+            <ul class="dropdown-menu">
+              <!-- User image -->
+              <li class="user-header">
+                <img src="../view/img/ecn.png" class="img-circle" alt="User Image">
+
+                <p>
+                  {Usu_login}
+                  <small>{Fecha_S}</small>
+                </p>
+              </li>
+              <!-- Menu Body -->
+              <li class="user-body">
+
+              
+              <!-- Menu Footer-->
+              <li class="user-footer">
+                <div class="pull-left">
+                  <a href="JavaScript:filtro(this.value, '../controllers/seguridad/cambio_clave', 'web');" class="btn btn-default btn-flat">Perfil</a>
+                </div>
+                <div class="pull-right">
+                  <a href="{salir}" class="btn btn-default btn-flat">Salir</a>
+                </div>
+              </li>
+            </ul>
+          </li>
+          <!-- Control Sidebar Toggle Button -->        
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <!-- =============================================== -->
+
+  <!-- Left side column. contains the sidebar -->
+  <aside class="main-sidebar">
+    <!-- sidebar: style can be found in sidebar.less -->
+    <section class="sidebar">
+      <!-- Sidebar user panel -->
+      <div class="user-panel">
+        <div align="center">
+          <img src="../view/img/unnamed.jpg" class="img-responsive" alt="User Image">
+        </div>
+      </div>     
+      <ul class="sidebar-menu">
+        <!-- BEGIN menu -->
+        <li class="header">Menu de Navegación</li>
+        <!-- BEGIN principal -->
+          <li class="treeview">
+          <a href="">
+            <i class="{menu.principal.icono}"></i> <span>{menu.principal.menu}</span> <i class="fa fa-angle-left pull-right"></i>
+          </a>
+          <ul class="treeview-menu">
+            <!-- BEGIN submenu -->
+              <li><a href="JavaScript:filtro(this.value, '{menu.principal.submenu.ruta}', 'web');" ><i class="{menu.principal.submenu.icono}"></i>{menu.principal.submenu.submenu}</a></li>
+            <!-- END principal -->
+          </ul>
+          <!-- END principal -->
+        </li> 
+        <!-- END menu -->	
+    </section>
+    <!-- /.sidebar -->
+  </aside>

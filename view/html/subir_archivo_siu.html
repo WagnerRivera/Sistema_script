@@ -1,0 +1,40 @@
+<script type="text/javascript">
+	
+</script>
+<!-- Default box -->
+<div class="box">
+
+<div class="box-header with-border">
+  <h3 class="box-title">Subir archivo Excel para el SIU</h3>
+
+  <div class="box-tools pull-right">
+    <button type="button" class="btn btn-box-tool" data-widget="remove" data-toggle="tooltip" title="remover">
+      <i class="fa fa-times"></i></button>
+    <!--<button type="button" class="btn btn-box-tool" data-widget="remove" data-toggle="tooltip" title="Remove">
+      <i class="fa fa-times"></i></button>-->
+  </div>
+</div>        
+<div class="box-body">
+	  <form action='{accion}' method='post' name="spg" enctype="multipart/form-data">
+		  <!-- BEGIN tabla -->
+		  	<div class='box-body'>				
+				<div class="form-group">
+					Archivo SIU<input type="file" class="bnt bnt-defoal" name="archi_siu" />
+				</div>											 
+			</div>
+			<div class='box-footer'>
+				<input type="submit" name="procesar" value='PROCESAR' class='btn btn-primary' onclick="setInterval('cargar()',250)">
+			</div>
+			<div class='box-footer' id="oculto" style='display:none;' >
+				  <progress id="barra" value="0" max="220" style="width:100%;" ></progress>
+			</div>				
+			<!-- END tabla -->
+	  </form>
+</div>
+<!-- /.box-body 
+<div class="box-footer">
+  Footer
+</div>-->
+<!-- /.box-footer-->
+</div>
+  <!-- /.box -->  

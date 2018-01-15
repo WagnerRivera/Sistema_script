@@ -1,0 +1,60 @@
+<script type="text/javascript">
+	
+</script>
+<!-- Default box -->
+<div class="box">
+
+<div class="box-header with-border">
+  <h3 class="box-title">Subir archivo Excel para el 3G</h3>
+
+  <div class="box-tools pull-right">
+    <button type="button" class="btn btn-box-tool" data-widget="remove" data-toggle="tooltip" title="remover">
+      <i class="fa fa-times"></i></button>
+    <!--<button type="button" class="btn btn-box-tool" data-widget="remove" data-toggle="tooltip" title="Remove">
+      <i class="fa fa-times"></i></button>-->
+  </div>
+</div>        
+<div class="box-body">
+	  <form action='{accion}' method='post' name="spg" enctype="multipart/form-data">
+		  <!-- BEGIN tabla -->
+		  	<div class='box-body'>
+				<div class='form-group'>
+		    		<label>Tipo Antena <span class="fa fa-info-circle" title="Esta información se encuentra en el RND"></span></label>			
+						<select name='Frecuencia' id="otro" class='form-control' >
+							<option value="">Tipo </option>							
+								<option value="98">98	</option>
+								<option value="99">99	</option>
+								<option value="100">100	</option>
+						</select>									 
+				</div>
+				<div class='form-group'>
+		    		<label>Tipo Transmisión <span class="fa fa-info-circle" title="Esta información es para el archivo de xml del sitio"></span></label>						
+						<select name='transmision' id="Frecuencia" class='form-control' onclick="inactivar(this.value)">
+							<option value="">Tipo </option>							
+								<option value="tna">TNA	</option>
+								<option value="tnb">TNB	</option>
+						</select>									 
+				</div>
+				<div class="form-group">
+					RND<input type="file" class="bnt bnt-defoal" name="archi_rnd" id="archi_rnd" disabled />
+				</div>
+				<div class="form-group">
+					IP<input type="file" class="bnt bnt-defoal" name="archi_ip" disabled />
+				</div>											 
+			</div>
+			<div class='box-footer'>
+				<input type="submit" name="procesar" value='PROCESAR' class='btn btn-primary' onclick="setInterval('cargar()',250)">
+			</div>
+			<div class='box-footer' id="oculto" style='display:none;' >
+				  <progress id="barra" value="0" max="220" style="width:100%;" ></progress>
+			</div>				
+			<!-- END tabla -->
+	  </form>
+</div>
+<!-- /.box-body 
+<div class="box-footer">
+  Footer
+</div>-->
+<!-- /.box-footer-->
+</div>
+  <!-- /.box -->  

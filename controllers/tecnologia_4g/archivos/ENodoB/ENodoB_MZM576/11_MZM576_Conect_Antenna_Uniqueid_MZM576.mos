@@ -1,0 +1,2727 @@
+confb+
+gs+
+
+crn Equipment=1,AntennaUnitGroup=1
+end
+
+crn Equipment=1,AntennaUnitGroup=1,AntennaUnit=1
+mechanicalAntennaTilt 20
+end
+
+crn Equipment=1,AntennaUnitGroup=1,AntennaUnit=1,AntennaSubunit=1
+azimuthHalfPowerBeamwidth 65
+commonChBeamfrmPortMap 0
+customComChBeamfrmWtsAmplitude 0,0,0,0,0,0,0,0
+customComChBeamfrmWtsPhase 0,0,0,0,0,0,0,0
+retSubunitRef 
+end
+
+crn Equipment=1,AntennaUnitGroup=2
+end
+
+crn Equipment=1,AntennaUnitGroup=2,AntennaUnit=1
+mechanicalAntennaTilt 20
+end
+
+crn Equipment=1,AntennaUnitGroup=2,AntennaUnit=1,AntennaSubunit=1
+azimuthHalfPowerBeamwidth 65
+commonChBeamfrmPortMap 0
+customComChBeamfrmWtsAmplitude 0,0,0,0,0,0,0,0
+customComChBeamfrmWtsPhase 0,0,0,0,0,0,0,0
+retSubunitRef 
+end
+
+crn Equipment=1,AntennaUnitGroup=1,RfBranch=1
+auPortRef 
+dlAttenuation 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+dlTrafficDelay 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+rfPortRef 
+tmaRef 
+ulAttenuation 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+ulTrafficDelay 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+userLabel 
+end
+
+crn Equipment=1,AntennaUnitGroup=1,RfBranch=2
+auPortRef 
+dlAttenuation 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+dlTrafficDelay 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+rfPortRef 
+tmaRef 
+ulAttenuation 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+ulTrafficDelay 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+userLabel 
+end
+
+crn Equipment=1,AntennaUnitGroup=1,RfBranch=3
+auPortRef 
+dlAttenuation 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+dlTrafficDelay 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+rfPortRef 
+tmaRef 
+ulAttenuation 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+ulTrafficDelay 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+userLabel 
+end
+
+crn Equipment=1,AntennaUnitGroup=1,RfBranch=4
+auPortRef 
+dlAttenuation 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+dlTrafficDelay 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+rfPortRef 
+tmaRef 
+ulAttenuation 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+ulTrafficDelay 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+userLabel 
+end
+
+crn Equipment=1,AntennaUnitGroup=1,AntennaUnit=1,AntennaSubunit=1,AuPort=1
+userLabel 
+end
+
+crn Equipment=1,AntennaUnitGroup=1,AntennaUnit=1,AntennaSubunit=1,AuPort=2
+userLabel 
+end
+
+crn Equipment=1,AntennaUnitGroup=1,AntennaUnit=1,AntennaSubunit=1,AuPort=3
+userLabel 
+end
+
+crn Equipment=1,AntennaUnitGroup=1,AntennaUnit=1,AntennaSubunit=1,AuPort=4
+userLabel 
+end
+
+crn Equipment=1,AntennaUnitGroup=2,AntennaUnit=1,AntennaSubunit=1,AuPort=1
+userLabel 
+end
+
+crn Equipment=1,AntennaUnitGroup=2,AntennaUnit=1,AntennaSubunit=1,AuPort=2
+userLabel 
+end
+
+crn Equipment=1,AntennaUnitGroup=2,AntennaUnit=1,AntennaSubunit=1,AuPort=3
+userLabel 
+end
+
+crn Equipment=1,AntennaUnitGroup=2,AntennaUnit=1,AntennaSubunit=1,AuPort=4
+userLabel 
+end
+
+crn Equipment=1,AntennaUnitGroup=3,AntennaUnit=1,AntennaSubunit=1,AuPort=1
+userLabel 
+end
+
+crn Equipment=1,AntennaUnitGroup=3,AntennaUnit=1,AntennaSubunit=1,AuPort=2
+userLabel 
+end
+
+crn Equipment=1,AntennaUnitGroup=3,AntennaUnit=1,AntennaSubunit=1,AuPort=3
+userLabel 
+end
+
+crn Equipment=1,AntennaUnitGroup=3,AntennaUnit=1,AntennaSubunit=1,AuPort=4
+userLabel 
+end
+
+crn Equipment=1,AntennaUnitGroup=4,AntennaUnit=1,AntennaSubunit=1,AuPort=1
+userLabel 
+end
+
+crn Equipment=1,AntennaUnitGroup=4,AntennaUnit=1,AntennaSubunit=1,AuPort=2
+userLabel 
+end
+
+crn Equipment=1,AntennaUnitGroup=5,AntennaUnit=1,AntennaSubunit=1,AuPort=1
+userLabel 
+end
+
+crn Equipment=1,AntennaUnitGroup=5,AntennaUnit=1,AntennaSubunit=1,AuPort=2
+userLabel 
+end
+
+crn Equipment=1,AntennaUnitGroup=6,AntennaUnit=1,AntennaSubunit=1,AuPort=1
+userLabel 
+end
+
+crn Equipment=1,AntennaUnitGroup=6,AntennaUnit=1,AntennaSubunit=1,AuPort=2
+userLabel 
+end
+
+crn Equipment=1,AntennaUnitGroup=7,AntennaUnit=1,AntennaSubunit=1,AuPort=1
+userLabel 
+end
+
+crn Equipment=1,AntennaUnitGroup=7,AntennaUnit=1,AntennaSubunit=1,AuPort=2
+userLabel 
+end
+
+crn Equipment=1,AntennaUnitGroup=7,AntennaUnit=1,AntennaSubunit=1,AuPort=3
+userLabel 
+end
+
+crn Equipment=1,AntennaUnitGroup=7,AntennaUnit=1,AntennaSubunit=1,AuPort=4
+userLabel 
+end
+
+crn Equipment=1,AntennaUnitGroup=8,AntennaUnit=1,AntennaSubunit=1,AuPort=1
+userLabel 
+end
+
+crn Equipment=1,AntennaUnitGroup=8,AntennaUnit=1,AntennaSubunit=1,AuPort=2
+userLabel 
+end
+
+crn Equipment=1,AntennaUnitGroup=8,AntennaUnit=1,AntennaSubunit=1,AuPort=3
+userLabel 
+end
+
+crn Equipment=1,AntennaUnitGroup=8,AntennaUnit=1,AntennaSubunit=1,AuPort=4
+userLabel 
+end
+
+crn Equipment=1,AntennaUnitGroup=9,AntennaUnit=1,AntennaSubunit=1,AuPort=1
+userLabel 
+end
+
+crn Equipment=1,AntennaUnitGroup=9,AntennaUnit=1,AntennaSubunit=1,AuPort=2
+userLabel 
+end
+
+crn Equipment=1,AntennaUnitGroup=9,AntennaUnit=1,AntennaSubunit=1,AuPort=3
+userLabel 
+end
+
+crn Equipment=1,AntennaUnitGroup=9,AntennaUnit=1,AntennaSubunit=1,AuPort=4
+userLabel 
+end
+
+crn Equipment=1,AntennaUnitGroup=3
+end
+
+crn Equipment=1,AntennaUnitGroup=3,AntennaUnit=1
+mechanicalAntennaTilt 20
+end
+
+crn Equipment=1,AntennaUnitGroup=3,AntennaUnit=1,AntennaSubunit=1
+azimuthHalfPowerBeamwidth 65
+commonChBeamfrmPortMap 0
+customComChBeamfrmWtsAmplitude 0,0,0,0,0,0,0,0
+customComChBeamfrmWtsPhase 0,0,0,0,0,0,0,0
+retSubunitRef 
+end
+
+crn Equipment=1,AntennaUnitGroup=1,RfBranch=1
+auPortRef 
+dlAttenuation 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+dlTrafficDelay 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+rfPortRef 
+tmaRef 
+ulAttenuation 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+ulTrafficDelay 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+userLabel 
+end
+
+crn Equipment=1,AntennaUnitGroup=1,RfBranch=2
+auPortRef 
+dlAttenuation 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+dlTrafficDelay 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+rfPortRef 
+tmaRef 
+ulAttenuation 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+ulTrafficDelay 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+userLabel 
+end
+
+crn Equipment=1,AntennaUnitGroup=1,RfBranch=3
+auPortRef 
+dlAttenuation 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+dlTrafficDelay 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+rfPortRef 
+tmaRef 
+ulAttenuation 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+ulTrafficDelay 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+userLabel 
+end
+
+crn Equipment=1,AntennaUnitGroup=1,RfBranch=4
+auPortRef 
+dlAttenuation 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+dlTrafficDelay 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+rfPortRef 
+tmaRef 
+ulAttenuation 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+ulTrafficDelay 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+userLabel 
+end
+
+crn Equipment=1,AntennaUnitGroup=2,RfBranch=1
+auPortRef 
+dlAttenuation 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+dlTrafficDelay 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+rfPortRef 
+tmaRef 
+ulAttenuation 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+ulTrafficDelay 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+userLabel 
+end
+
+crn Equipment=1,AntennaUnitGroup=2,RfBranch=2
+auPortRef 
+dlAttenuation 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+dlTrafficDelay 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+rfPortRef 
+tmaRef 
+ulAttenuation 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+ulTrafficDelay 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+userLabel 
+end
+
+crn Equipment=1,AntennaUnitGroup=2,RfBranch=3
+auPortRef 
+dlAttenuation 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+dlTrafficDelay 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+rfPortRef 
+tmaRef 
+ulAttenuation 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+ulTrafficDelay 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+userLabel 
+end
+
+crn Equipment=1,AntennaUnitGroup=2,RfBranch=4
+auPortRef 
+dlAttenuation 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+dlTrafficDelay 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+rfPortRef 
+tmaRef 
+ulAttenuation 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+ulTrafficDelay 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+userLabel 
+end
+
+crn Equipment=1,AntennaUnitGroup=1,AntennaUnit=1,AntennaSubunit=1,AuPort=1
+userLabel 
+end
+
+crn Equipment=1,AntennaUnitGroup=1,AntennaUnit=1,AntennaSubunit=1,AuPort=2
+userLabel 
+end
+
+crn Equipment=1,AntennaUnitGroup=1,AntennaUnit=1,AntennaSubunit=1,AuPort=3
+userLabel 
+end
+
+crn Equipment=1,AntennaUnitGroup=1,AntennaUnit=1,AntennaSubunit=1,AuPort=4
+userLabel 
+end
+
+crn Equipment=1,AntennaUnitGroup=2,AntennaUnit=1,AntennaSubunit=1,AuPort=1
+userLabel 
+end
+
+crn Equipment=1,AntennaUnitGroup=2,AntennaUnit=1,AntennaSubunit=1,AuPort=2
+userLabel 
+end
+
+crn Equipment=1,AntennaUnitGroup=2,AntennaUnit=1,AntennaSubunit=1,AuPort=3
+userLabel 
+end
+
+crn Equipment=1,AntennaUnitGroup=2,AntennaUnit=1,AntennaSubunit=1,AuPort=4
+userLabel 
+end
+
+crn Equipment=1,AntennaUnitGroup=3,AntennaUnit=1,AntennaSubunit=1,AuPort=1
+userLabel 
+end
+
+crn Equipment=1,AntennaUnitGroup=3,AntennaUnit=1,AntennaSubunit=1,AuPort=2
+userLabel 
+end
+
+crn Equipment=1,AntennaUnitGroup=3,AntennaUnit=1,AntennaSubunit=1,AuPort=3
+userLabel 
+end
+
+crn Equipment=1,AntennaUnitGroup=3,AntennaUnit=1,AntennaSubunit=1,AuPort=4
+userLabel 
+end
+
+crn Equipment=1,AntennaUnitGroup=4,AntennaUnit=1,AntennaSubunit=1,AuPort=1
+userLabel 
+end
+
+crn Equipment=1,AntennaUnitGroup=4,AntennaUnit=1,AntennaSubunit=1,AuPort=2
+userLabel 
+end
+
+crn Equipment=1,AntennaUnitGroup=5,AntennaUnit=1,AntennaSubunit=1,AuPort=1
+userLabel 
+end
+
+crn Equipment=1,AntennaUnitGroup=5,AntennaUnit=1,AntennaSubunit=1,AuPort=2
+userLabel 
+end
+
+crn Equipment=1,AntennaUnitGroup=6,AntennaUnit=1,AntennaSubunit=1,AuPort=1
+userLabel 
+end
+
+crn Equipment=1,AntennaUnitGroup=6,AntennaUnit=1,AntennaSubunit=1,AuPort=2
+userLabel 
+end
+
+crn Equipment=1,AntennaUnitGroup=7,AntennaUnit=1,AntennaSubunit=1,AuPort=1
+userLabel 
+end
+
+crn Equipment=1,AntennaUnitGroup=7,AntennaUnit=1,AntennaSubunit=1,AuPort=2
+userLabel 
+end
+
+crn Equipment=1,AntennaUnitGroup=7,AntennaUnit=1,AntennaSubunit=1,AuPort=3
+userLabel 
+end
+
+crn Equipment=1,AntennaUnitGroup=7,AntennaUnit=1,AntennaSubunit=1,AuPort=4
+userLabel 
+end
+
+crn Equipment=1,AntennaUnitGroup=8,AntennaUnit=1,AntennaSubunit=1,AuPort=1
+userLabel 
+end
+
+crn Equipment=1,AntennaUnitGroup=8,AntennaUnit=1,AntennaSubunit=1,AuPort=2
+userLabel 
+end
+
+crn Equipment=1,AntennaUnitGroup=8,AntennaUnit=1,AntennaSubunit=1,AuPort=3
+userLabel 
+end
+
+crn Equipment=1,AntennaUnitGroup=8,AntennaUnit=1,AntennaSubunit=1,AuPort=4
+userLabel 
+end
+
+crn Equipment=1,AntennaUnitGroup=9,AntennaUnit=1,AntennaSubunit=1,AuPort=1
+userLabel 
+end
+
+crn Equipment=1,AntennaUnitGroup=9,AntennaUnit=1,AntennaSubunit=1,AuPort=2
+userLabel 
+end
+
+crn Equipment=1,AntennaUnitGroup=9,AntennaUnit=1,AntennaSubunit=1,AuPort=3
+userLabel 
+end
+
+crn Equipment=1,AntennaUnitGroup=9,AntennaUnit=1,AntennaSubunit=1,AuPort=4
+userLabel 
+end
+
+crn Equipment=1,AntennaUnitGroup=4
+end
+
+crn Equipment=1,AntennaUnitGroup=4,AntennaUnit=1
+mechanicalAntennaTilt 20
+end
+
+crn Equipment=1,AntennaUnitGroup=4,AntennaUnit=1,AntennaSubunit=1
+azimuthHalfPowerBeamwidth 65
+commonChBeamfrmPortMap 0
+customComChBeamfrmWtsAmplitude 0,0,0,0,0,0,0,0
+customComChBeamfrmWtsPhase 0,0,0,0,0,0,0,0
+retSubunitRef 
+end
+
+crn Equipment=1,AntennaUnitGroup=1,RfBranch=1
+auPortRef 
+dlAttenuation 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+dlTrafficDelay 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+rfPortRef 
+tmaRef 
+ulAttenuation 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+ulTrafficDelay 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+userLabel 
+end
+
+crn Equipment=1,AntennaUnitGroup=1,RfBranch=2
+auPortRef 
+dlAttenuation 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+dlTrafficDelay 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+rfPortRef 
+tmaRef 
+ulAttenuation 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+ulTrafficDelay 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+userLabel 
+end
+
+crn Equipment=1,AntennaUnitGroup=1,RfBranch=3
+auPortRef 
+dlAttenuation 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+dlTrafficDelay 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+rfPortRef 
+tmaRef 
+ulAttenuation 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+ulTrafficDelay 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+userLabel 
+end
+
+crn Equipment=1,AntennaUnitGroup=1,RfBranch=4
+auPortRef 
+dlAttenuation 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+dlTrafficDelay 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+rfPortRef 
+tmaRef 
+ulAttenuation 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+ulTrafficDelay 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+userLabel 
+end
+
+crn Equipment=1,AntennaUnitGroup=2,RfBranch=1
+auPortRef 
+dlAttenuation 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+dlTrafficDelay 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+rfPortRef 
+tmaRef 
+ulAttenuation 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+ulTrafficDelay 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+userLabel 
+end
+
+crn Equipment=1,AntennaUnitGroup=2,RfBranch=2
+auPortRef 
+dlAttenuation 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+dlTrafficDelay 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+rfPortRef 
+tmaRef 
+ulAttenuation 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+ulTrafficDelay 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+userLabel 
+end
+
+crn Equipment=1,AntennaUnitGroup=2,RfBranch=3
+auPortRef 
+dlAttenuation 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+dlTrafficDelay 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+rfPortRef 
+tmaRef 
+ulAttenuation 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+ulTrafficDelay 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+userLabel 
+end
+
+crn Equipment=1,AntennaUnitGroup=2,RfBranch=4
+auPortRef 
+dlAttenuation 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+dlTrafficDelay 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+rfPortRef 
+tmaRef 
+ulAttenuation 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+ulTrafficDelay 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+userLabel 
+end
+
+crn Equipment=1,AntennaUnitGroup=3,RfBranch=1
+auPortRef 
+dlAttenuation 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+dlTrafficDelay 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+rfPortRef 
+tmaRef 
+ulAttenuation 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+ulTrafficDelay 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+userLabel 
+end
+
+crn Equipment=1,AntennaUnitGroup=3,RfBranch=2
+auPortRef 
+dlAttenuation 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+dlTrafficDelay 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+rfPortRef 
+tmaRef 
+ulAttenuation 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+ulTrafficDelay 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+userLabel 
+end
+
+crn Equipment=1,AntennaUnitGroup=3,RfBranch=3
+auPortRef 
+dlAttenuation 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+dlTrafficDelay 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+rfPortRef 
+tmaRef 
+ulAttenuation 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+ulTrafficDelay 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+userLabel 
+end
+
+crn Equipment=1,AntennaUnitGroup=3,RfBranch=4
+auPortRef 
+dlAttenuation 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+dlTrafficDelay 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+rfPortRef 
+tmaRef 
+ulAttenuation 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+ulTrafficDelay 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+userLabel 
+end
+
+crn Equipment=1,AntennaUnitGroup=1,AntennaUnit=1,AntennaSubunit=1,AuPort=1
+userLabel 
+end
+
+crn Equipment=1,AntennaUnitGroup=1,AntennaUnit=1,AntennaSubunit=1,AuPort=2
+userLabel 
+end
+
+crn Equipment=1,AntennaUnitGroup=1,AntennaUnit=1,AntennaSubunit=1,AuPort=3
+userLabel 
+end
+
+crn Equipment=1,AntennaUnitGroup=1,AntennaUnit=1,AntennaSubunit=1,AuPort=4
+userLabel 
+end
+
+crn Equipment=1,AntennaUnitGroup=2,AntennaUnit=1,AntennaSubunit=1,AuPort=1
+userLabel 
+end
+
+crn Equipment=1,AntennaUnitGroup=2,AntennaUnit=1,AntennaSubunit=1,AuPort=2
+userLabel 
+end
+
+crn Equipment=1,AntennaUnitGroup=2,AntennaUnit=1,AntennaSubunit=1,AuPort=3
+userLabel 
+end
+
+crn Equipment=1,AntennaUnitGroup=2,AntennaUnit=1,AntennaSubunit=1,AuPort=4
+userLabel 
+end
+
+crn Equipment=1,AntennaUnitGroup=3,AntennaUnit=1,AntennaSubunit=1,AuPort=1
+userLabel 
+end
+
+crn Equipment=1,AntennaUnitGroup=3,AntennaUnit=1,AntennaSubunit=1,AuPort=2
+userLabel 
+end
+
+crn Equipment=1,AntennaUnitGroup=3,AntennaUnit=1,AntennaSubunit=1,AuPort=3
+userLabel 
+end
+
+crn Equipment=1,AntennaUnitGroup=3,AntennaUnit=1,AntennaSubunit=1,AuPort=4
+userLabel 
+end
+
+crn Equipment=1,AntennaUnitGroup=4,AntennaUnit=1,AntennaSubunit=1,AuPort=1
+userLabel 
+end
+
+crn Equipment=1,AntennaUnitGroup=4,AntennaUnit=1,AntennaSubunit=1,AuPort=2
+userLabel 
+end
+
+crn Equipment=1,AntennaUnitGroup=5,AntennaUnit=1,AntennaSubunit=1,AuPort=1
+userLabel 
+end
+
+crn Equipment=1,AntennaUnitGroup=5,AntennaUnit=1,AntennaSubunit=1,AuPort=2
+userLabel 
+end
+
+crn Equipment=1,AntennaUnitGroup=6,AntennaUnit=1,AntennaSubunit=1,AuPort=1
+userLabel 
+end
+
+crn Equipment=1,AntennaUnitGroup=6,AntennaUnit=1,AntennaSubunit=1,AuPort=2
+userLabel 
+end
+
+crn Equipment=1,AntennaUnitGroup=7,AntennaUnit=1,AntennaSubunit=1,AuPort=1
+userLabel 
+end
+
+crn Equipment=1,AntennaUnitGroup=7,AntennaUnit=1,AntennaSubunit=1,AuPort=2
+userLabel 
+end
+
+crn Equipment=1,AntennaUnitGroup=7,AntennaUnit=1,AntennaSubunit=1,AuPort=3
+userLabel 
+end
+
+crn Equipment=1,AntennaUnitGroup=7,AntennaUnit=1,AntennaSubunit=1,AuPort=4
+userLabel 
+end
+
+crn Equipment=1,AntennaUnitGroup=8,AntennaUnit=1,AntennaSubunit=1,AuPort=1
+userLabel 
+end
+
+crn Equipment=1,AntennaUnitGroup=8,AntennaUnit=1,AntennaSubunit=1,AuPort=2
+userLabel 
+end
+
+crn Equipment=1,AntennaUnitGroup=8,AntennaUnit=1,AntennaSubunit=1,AuPort=3
+userLabel 
+end
+
+crn Equipment=1,AntennaUnitGroup=8,AntennaUnit=1,AntennaSubunit=1,AuPort=4
+userLabel 
+end
+
+crn Equipment=1,AntennaUnitGroup=9,AntennaUnit=1,AntennaSubunit=1,AuPort=1
+userLabel 
+end
+
+crn Equipment=1,AntennaUnitGroup=9,AntennaUnit=1,AntennaSubunit=1,AuPort=2
+userLabel 
+end
+
+crn Equipment=1,AntennaUnitGroup=9,AntennaUnit=1,AntennaSubunit=1,AuPort=3
+userLabel 
+end
+
+crn Equipment=1,AntennaUnitGroup=9,AntennaUnit=1,AntennaSubunit=1,AuPort=4
+userLabel 
+end
+
+crn Equipment=1,AntennaUnitGroup=1
+end
+
+crn Equipment=1,AntennaUnitGroup=1,AntennaUnit=1
+mechanicalAntennaTilt 20
+end
+
+crn Equipment=1,AntennaUnitGroup=1,AntennaUnit=1,AntennaSubunit=1
+azimuthHalfPowerBeamwidth 65
+commonChBeamfrmPortMap 0
+customComChBeamfrmWtsAmplitude 0,0,0,0,0,0,0,0
+customComChBeamfrmWtsPhase 0,0,0,0,0,0,0,0
+retSubunitRef 
+end
+
+crn Equipment=1,AntennaUnitGroup=2
+end
+
+crn Equipment=1,AntennaUnitGroup=2,AntennaUnit=1
+mechanicalAntennaTilt 20
+end
+
+crn Equipment=1,AntennaUnitGroup=2,AntennaUnit=1,AntennaSubunit=1
+azimuthHalfPowerBeamwidth 65
+commonChBeamfrmPortMap 0
+customComChBeamfrmWtsAmplitude 0,0,0,0,0,0,0,0
+customComChBeamfrmWtsPhase 0,0,0,0,0,0,0,0
+retSubunitRef 
+end
+
+crn Equipment=1,AntennaUnitGroup=1,RfBranch=1
+auPortRef 
+dlAttenuation 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+dlTrafficDelay 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+rfPortRef 
+tmaRef 
+ulAttenuation 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+ulTrafficDelay 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+userLabel 
+end
+
+crn Equipment=1,AntennaUnitGroup=1,RfBranch=2
+auPortRef 
+dlAttenuation 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+dlTrafficDelay 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+rfPortRef 
+tmaRef 
+ulAttenuation 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+ulTrafficDelay 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+userLabel 
+end
+
+crn Equipment=1,AntennaUnitGroup=1,RfBranch=3
+auPortRef 
+dlAttenuation 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+dlTrafficDelay 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+rfPortRef 
+tmaRef 
+ulAttenuation 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+ulTrafficDelay 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+userLabel 
+end
+
+crn Equipment=1,AntennaUnitGroup=1,RfBranch=4
+auPortRef 
+dlAttenuation 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+dlTrafficDelay 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+rfPortRef 
+tmaRef 
+ulAttenuation 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+ulTrafficDelay 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+userLabel 
+end
+
+crn Equipment=1,AntennaUnitGroup=3
+end
+
+crn Equipment=1,AntennaUnitGroup=3,AntennaUnit=1
+mechanicalAntennaTilt 20
+end
+
+crn Equipment=1,AntennaUnitGroup=3,AntennaUnit=1,AntennaSubunit=1
+azimuthHalfPowerBeamwidth 65
+commonChBeamfrmPortMap 0
+customComChBeamfrmWtsAmplitude 0,0,0,0,0,0,0,0
+customComChBeamfrmWtsPhase 0,0,0,0,0,0,0,0
+retSubunitRef 
+end
+
+crn Equipment=1,AntennaUnitGroup=1,RfBranch=1
+auPortRef 
+dlAttenuation 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+dlTrafficDelay 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+rfPortRef 
+tmaRef 
+ulAttenuation 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+ulTrafficDelay 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+userLabel 
+end
+
+crn Equipment=1,AntennaUnitGroup=1,RfBranch=2
+auPortRef 
+dlAttenuation 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+dlTrafficDelay 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+rfPortRef 
+tmaRef 
+ulAttenuation 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+ulTrafficDelay 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+userLabel 
+end
+
+crn Equipment=1,AntennaUnitGroup=1,RfBranch=3
+auPortRef 
+dlAttenuation 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+dlTrafficDelay 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+rfPortRef 
+tmaRef 
+ulAttenuation 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+ulTrafficDelay 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+userLabel 
+end
+
+crn Equipment=1,AntennaUnitGroup=1,RfBranch=4
+auPortRef 
+dlAttenuation 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+dlTrafficDelay 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+rfPortRef 
+tmaRef 
+ulAttenuation 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+ulTrafficDelay 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+userLabel 
+end
+
+crn Equipment=1,AntennaUnitGroup=2,RfBranch=1
+auPortRef 
+dlAttenuation 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+dlTrafficDelay 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+rfPortRef 
+tmaRef 
+ulAttenuation 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+ulTrafficDelay 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+userLabel 
+end
+
+crn Equipment=1,AntennaUnitGroup=2,RfBranch=2
+auPortRef 
+dlAttenuation 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+dlTrafficDelay 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+rfPortRef 
+tmaRef 
+ulAttenuation 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+ulTrafficDelay 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+userLabel 
+end
+
+crn Equipment=1,AntennaUnitGroup=2,RfBranch=3
+auPortRef 
+dlAttenuation 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+dlTrafficDelay 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+rfPortRef 
+tmaRef 
+ulAttenuation 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+ulTrafficDelay 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+userLabel 
+end
+
+crn Equipment=1,AntennaUnitGroup=2,RfBranch=4
+auPortRef 
+dlAttenuation 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+dlTrafficDelay 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+rfPortRef 
+tmaRef 
+ulAttenuation 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+ulTrafficDelay 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+userLabel 
+end
+
+crn Equipment=1,AntennaUnitGroup=1,AntennaUnit=1,AntennaSubunit=1,AuPort=1
+userLabel 
+end
+
+crn Equipment=1,AntennaUnitGroup=1,AntennaUnit=1,AntennaSubunit=1,AuPort=2
+userLabel 
+end
+
+crn Equipment=1,AntennaUnitGroup=1,AntennaUnit=1,AntennaSubunit=1,AuPort=3
+userLabel 
+end
+
+crn Equipment=1,AntennaUnitGroup=1,AntennaUnit=1,AntennaSubunit=1,AuPort=4
+userLabel 
+end
+
+crn Equipment=1,AntennaUnitGroup=2,AntennaUnit=1,AntennaSubunit=1,AuPort=1
+userLabel 
+end
+
+crn Equipment=1,AntennaUnitGroup=2,AntennaUnit=1,AntennaSubunit=1,AuPort=2
+userLabel 
+end
+
+crn Equipment=1,AntennaUnitGroup=2,AntennaUnit=1,AntennaSubunit=1,AuPort=3
+userLabel 
+end
+
+crn Equipment=1,AntennaUnitGroup=2,AntennaUnit=1,AntennaSubunit=1,AuPort=4
+userLabel 
+end
+
+crn Equipment=1,AntennaUnitGroup=3,AntennaUnit=1,AntennaSubunit=1,AuPort=1
+userLabel 
+end
+
+crn Equipment=1,AntennaUnitGroup=3,AntennaUnit=1,AntennaSubunit=1,AuPort=2
+userLabel 
+end
+
+crn Equipment=1,AntennaUnitGroup=3,AntennaUnit=1,AntennaSubunit=1,AuPort=3
+userLabel 
+end
+
+crn Equipment=1,AntennaUnitGroup=3,AntennaUnit=1,AntennaSubunit=1,AuPort=4
+userLabel 
+end
+
+crn Equipment=1,AntennaUnitGroup=4,AntennaUnit=1,AntennaSubunit=1,AuPort=1
+userLabel 
+end
+
+crn Equipment=1,AntennaUnitGroup=4,AntennaUnit=1,AntennaSubunit=1,AuPort=2
+userLabel 
+end
+
+crn Equipment=1,AntennaUnitGroup=5,AntennaUnit=1,AntennaSubunit=1,AuPort=1
+userLabel 
+end
+
+crn Equipment=1,AntennaUnitGroup=5,AntennaUnit=1,AntennaSubunit=1,AuPort=2
+userLabel 
+end
+
+crn Equipment=1,AntennaUnitGroup=6,AntennaUnit=1,AntennaSubunit=1,AuPort=1
+userLabel 
+end
+
+crn Equipment=1,AntennaUnitGroup=6,AntennaUnit=1,AntennaSubunit=1,AuPort=2
+userLabel 
+end
+
+crn Equipment=1,AntennaUnitGroup=7,AntennaUnit=1,AntennaSubunit=1,AuPort=1
+userLabel 
+end
+
+crn Equipment=1,AntennaUnitGroup=7,AntennaUnit=1,AntennaSubunit=1,AuPort=2
+userLabel 
+end
+
+crn Equipment=1,AntennaUnitGroup=7,AntennaUnit=1,AntennaSubunit=1,AuPort=3
+userLabel 
+end
+
+crn Equipment=1,AntennaUnitGroup=7,AntennaUnit=1,AntennaSubunit=1,AuPort=4
+userLabel 
+end
+
+crn Equipment=1,AntennaUnitGroup=8,AntennaUnit=1,AntennaSubunit=1,AuPort=1
+userLabel 
+end
+
+crn Equipment=1,AntennaUnitGroup=8,AntennaUnit=1,AntennaSubunit=1,AuPort=2
+userLabel 
+end
+
+crn Equipment=1,AntennaUnitGroup=8,AntennaUnit=1,AntennaSubunit=1,AuPort=3
+userLabel 
+end
+
+crn Equipment=1,AntennaUnitGroup=8,AntennaUnit=1,AntennaSubunit=1,AuPort=4
+userLabel 
+end
+
+crn Equipment=1,AntennaUnitGroup=9,AntennaUnit=1,AntennaSubunit=1,AuPort=1
+userLabel 
+end
+
+crn Equipment=1,AntennaUnitGroup=9,AntennaUnit=1,AntennaSubunit=1,AuPort=2
+userLabel 
+end
+
+crn Equipment=1,AntennaUnitGroup=9,AntennaUnit=1,AntennaSubunit=1,AuPort=3
+userLabel 
+end
+
+crn Equipment=1,AntennaUnitGroup=9,AntennaUnit=1,AntennaSubunit=1,AuPort=4
+userLabel 
+end
+
+crn Equipment=1,AntennaUnitGroup=4
+end
+
+crn Equipment=1,AntennaUnitGroup=4,AntennaUnit=1
+mechanicalAntennaTilt 20
+end
+
+crn Equipment=1,AntennaUnitGroup=4,AntennaUnit=1,AntennaSubunit=1
+azimuthHalfPowerBeamwidth 65
+commonChBeamfrmPortMap 0
+customComChBeamfrmWtsAmplitude 0,0,0,0,0,0,0,0
+customComChBeamfrmWtsPhase 0,0,0,0,0,0,0,0
+retSubunitRef 
+end
+
+crn Equipment=1,AntennaUnitGroup=1,RfBranch=1
+auPortRef 
+dlAttenuation 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+dlTrafficDelay 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+rfPortRef 
+tmaRef 
+ulAttenuation 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+ulTrafficDelay 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+userLabel 
+end
+
+crn Equipment=1,AntennaUnitGroup=1,RfBranch=2
+auPortRef 
+dlAttenuation 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+dlTrafficDelay 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+rfPortRef 
+tmaRef 
+ulAttenuation 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+ulTrafficDelay 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+userLabel 
+end
+
+crn Equipment=1,AntennaUnitGroup=1,RfBranch=3
+auPortRef 
+dlAttenuation 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+dlTrafficDelay 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+rfPortRef 
+tmaRef 
+ulAttenuation 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+ulTrafficDelay 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+userLabel 
+end
+
+crn Equipment=1,AntennaUnitGroup=1,RfBranch=4
+auPortRef 
+dlAttenuation 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+dlTrafficDelay 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+rfPortRef 
+tmaRef 
+ulAttenuation 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+ulTrafficDelay 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+userLabel 
+end
+
+crn Equipment=1,AntennaUnitGroup=2,RfBranch=1
+auPortRef 
+dlAttenuation 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+dlTrafficDelay 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+rfPortRef 
+tmaRef 
+ulAttenuation 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+ulTrafficDelay 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+userLabel 
+end
+
+crn Equipment=1,AntennaUnitGroup=2,RfBranch=2
+auPortRef 
+dlAttenuation 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+dlTrafficDelay 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+rfPortRef 
+tmaRef 
+ulAttenuation 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+ulTrafficDelay 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+userLabel 
+end
+
+crn Equipment=1,AntennaUnitGroup=2,RfBranch=3
+auPortRef 
+dlAttenuation 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+dlTrafficDelay 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+rfPortRef 
+tmaRef 
+ulAttenuation 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+ulTrafficDelay 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+userLabel 
+end
+
+crn Equipment=1,AntennaUnitGroup=2,RfBranch=4
+auPortRef 
+dlAttenuation 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+dlTrafficDelay 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+rfPortRef 
+tmaRef 
+ulAttenuation 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+ulTrafficDelay 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+userLabel 
+end
+
+crn Equipment=1,AntennaUnitGroup=3,RfBranch=1
+auPortRef 
+dlAttenuation 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+dlTrafficDelay 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+rfPortRef 
+tmaRef 
+ulAttenuation 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+ulTrafficDelay 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+userLabel 
+end
+
+crn Equipment=1,AntennaUnitGroup=3,RfBranch=2
+auPortRef 
+dlAttenuation 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+dlTrafficDelay 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+rfPortRef 
+tmaRef 
+ulAttenuation 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+ulTrafficDelay 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+userLabel 
+end
+
+crn Equipment=1,AntennaUnitGroup=3,RfBranch=3
+auPortRef 
+dlAttenuation 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+dlTrafficDelay 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+rfPortRef 
+tmaRef 
+ulAttenuation 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+ulTrafficDelay 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+userLabel 
+end
+
+crn Equipment=1,AntennaUnitGroup=3,RfBranch=4
+auPortRef 
+dlAttenuation 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+dlTrafficDelay 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+rfPortRef 
+tmaRef 
+ulAttenuation 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+ulTrafficDelay 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+userLabel 
+end
+
+crn Equipment=1,AntennaUnitGroup=1,AntennaUnit=1,AntennaSubunit=1,AuPort=1
+userLabel 
+end
+
+crn Equipment=1,AntennaUnitGroup=1,AntennaUnit=1,AntennaSubunit=1,AuPort=2
+userLabel 
+end
+
+crn Equipment=1,AntennaUnitGroup=1,AntennaUnit=1,AntennaSubunit=1,AuPort=3
+userLabel 
+end
+
+crn Equipment=1,AntennaUnitGroup=1,AntennaUnit=1,AntennaSubunit=1,AuPort=4
+userLabel 
+end
+
+crn Equipment=1,AntennaUnitGroup=2,AntennaUnit=1,AntennaSubunit=1,AuPort=1
+userLabel 
+end
+
+crn Equipment=1,AntennaUnitGroup=2,AntennaUnit=1,AntennaSubunit=1,AuPort=2
+userLabel 
+end
+
+crn Equipment=1,AntennaUnitGroup=2,AntennaUnit=1,AntennaSubunit=1,AuPort=3
+userLabel 
+end
+
+crn Equipment=1,AntennaUnitGroup=2,AntennaUnit=1,AntennaSubunit=1,AuPort=4
+userLabel 
+end
+
+crn Equipment=1,AntennaUnitGroup=3,AntennaUnit=1,AntennaSubunit=1,AuPort=1
+userLabel 
+end
+
+crn Equipment=1,AntennaUnitGroup=3,AntennaUnit=1,AntennaSubunit=1,AuPort=2
+userLabel 
+end
+
+crn Equipment=1,AntennaUnitGroup=3,AntennaUnit=1,AntennaSubunit=1,AuPort=3
+userLabel 
+end
+
+crn Equipment=1,AntennaUnitGroup=3,AntennaUnit=1,AntennaSubunit=1,AuPort=4
+userLabel 
+end
+
+crn Equipment=1,AntennaUnitGroup=4,AntennaUnit=1,AntennaSubunit=1,AuPort=1
+userLabel 
+end
+
+crn Equipment=1,AntennaUnitGroup=4,AntennaUnit=1,AntennaSubunit=1,AuPort=2
+userLabel 
+end
+
+crn Equipment=1,AntennaUnitGroup=5,AntennaUnit=1,AntennaSubunit=1,AuPort=1
+userLabel 
+end
+
+crn Equipment=1,AntennaUnitGroup=5,AntennaUnit=1,AntennaSubunit=1,AuPort=2
+userLabel 
+end
+
+crn Equipment=1,AntennaUnitGroup=6,AntennaUnit=1,AntennaSubunit=1,AuPort=1
+userLabel 
+end
+
+crn Equipment=1,AntennaUnitGroup=6,AntennaUnit=1,AntennaSubunit=1,AuPort=2
+userLabel 
+end
+
+crn Equipment=1,AntennaUnitGroup=7,AntennaUnit=1,AntennaSubunit=1,AuPort=1
+userLabel 
+end
+
+crn Equipment=1,AntennaUnitGroup=7,AntennaUnit=1,AntennaSubunit=1,AuPort=2
+userLabel 
+end
+
+crn Equipment=1,AntennaUnitGroup=7,AntennaUnit=1,AntennaSubunit=1,AuPort=3
+userLabel 
+end
+
+crn Equipment=1,AntennaUnitGroup=7,AntennaUnit=1,AntennaSubunit=1,AuPort=4
+userLabel 
+end
+
+crn Equipment=1,AntennaUnitGroup=8,AntennaUnit=1,AntennaSubunit=1,AuPort=1
+userLabel 
+end
+
+crn Equipment=1,AntennaUnitGroup=8,AntennaUnit=1,AntennaSubunit=1,AuPort=2
+userLabel 
+end
+
+crn Equipment=1,AntennaUnitGroup=8,AntennaUnit=1,AntennaSubunit=1,AuPort=3
+userLabel 
+end
+
+crn Equipment=1,AntennaUnitGroup=8,AntennaUnit=1,AntennaSubunit=1,AuPort=4
+userLabel 
+end
+
+crn Equipment=1,AntennaUnitGroup=9,AntennaUnit=1,AntennaSubunit=1,AuPort=1
+userLabel 
+end
+
+crn Equipment=1,AntennaUnitGroup=9,AntennaUnit=1,AntennaSubunit=1,AuPort=2
+userLabel 
+end
+
+crn Equipment=1,AntennaUnitGroup=9,AntennaUnit=1,AntennaSubunit=1,AuPort=3
+userLabel 
+end
+
+crn Equipment=1,AntennaUnitGroup=9,AntennaUnit=1,AntennaSubunit=1,AuPort=4
+userLabel 
+end
+
+crn Equipment=1,AntennaUnitGroup=1
+end
+
+crn Equipment=1,AntennaUnitGroup=1,AntennaUnit=1
+mechanicalAntennaTilt 20
+end
+
+crn Equipment=1,AntennaUnitGroup=1,AntennaUnit=1,AntennaSubunit=1
+azimuthHalfPowerBeamwidth 65
+commonChBeamfrmPortMap 0
+customComChBeamfrmWtsAmplitude 0,0,0,0,0,0,0,0
+customComChBeamfrmWtsPhase 0,0,0,0,0,0,0,0
+retSubunitRef 
+end
+
+crn Equipment=1,AntennaUnitGroup=2
+end
+
+crn Equipment=1,AntennaUnitGroup=2,AntennaUnit=1
+mechanicalAntennaTilt 20
+end
+
+crn Equipment=1,AntennaUnitGroup=2,AntennaUnit=1,AntennaSubunit=1
+azimuthHalfPowerBeamwidth 65
+commonChBeamfrmPortMap 0
+customComChBeamfrmWtsAmplitude 0,0,0,0,0,0,0,0
+customComChBeamfrmWtsPhase 0,0,0,0,0,0,0,0
+retSubunitRef 
+end
+
+crn Equipment=1,AntennaUnitGroup=1,RfBranch=1
+auPortRef 
+dlAttenuation 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+dlTrafficDelay 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+rfPortRef 
+tmaRef 
+ulAttenuation 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+ulTrafficDelay 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+userLabel 
+end
+
+crn Equipment=1,AntennaUnitGroup=1,RfBranch=2
+auPortRef 
+dlAttenuation 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+dlTrafficDelay 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+rfPortRef 
+tmaRef 
+ulAttenuation 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+ulTrafficDelay 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+userLabel 
+end
+
+crn Equipment=1,AntennaUnitGroup=1,RfBranch=3
+auPortRef 
+dlAttenuation 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+dlTrafficDelay 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+rfPortRef 
+tmaRef 
+ulAttenuation 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+ulTrafficDelay 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+userLabel 
+end
+
+crn Equipment=1,AntennaUnitGroup=1,RfBranch=4
+auPortRef 
+dlAttenuation 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+dlTrafficDelay 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+rfPortRef 
+tmaRef 
+ulAttenuation 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+ulTrafficDelay 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+userLabel 
+end
+
+crn Equipment=1,AntennaUnitGroup=3
+end
+
+crn Equipment=1,AntennaUnitGroup=3,AntennaUnit=1
+mechanicalAntennaTilt 20
+end
+
+crn Equipment=1,AntennaUnitGroup=3,AntennaUnit=1,AntennaSubunit=1
+azimuthHalfPowerBeamwidth 65
+commonChBeamfrmPortMap 0
+customComChBeamfrmWtsAmplitude 0,0,0,0,0,0,0,0
+customComChBeamfrmWtsPhase 0,0,0,0,0,0,0,0
+retSubunitRef 
+end
+
+crn Equipment=1,AntennaUnitGroup=1,RfBranch=1
+auPortRef 
+dlAttenuation 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+dlTrafficDelay 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+rfPortRef 
+tmaRef 
+ulAttenuation 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+ulTrafficDelay 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+userLabel 
+end
+
+crn Equipment=1,AntennaUnitGroup=1,RfBranch=2
+auPortRef 
+dlAttenuation 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+dlTrafficDelay 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+rfPortRef 
+tmaRef 
+ulAttenuation 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+ulTrafficDelay 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+userLabel 
+end
+
+crn Equipment=1,AntennaUnitGroup=1,RfBranch=3
+auPortRef 
+dlAttenuation 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+dlTrafficDelay 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+rfPortRef 
+tmaRef 
+ulAttenuation 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+ulTrafficDelay 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+userLabel 
+end
+
+crn Equipment=1,AntennaUnitGroup=1,RfBranch=4
+auPortRef 
+dlAttenuation 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+dlTrafficDelay 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+rfPortRef 
+tmaRef 
+ulAttenuation 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+ulTrafficDelay 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+userLabel 
+end
+
+crn Equipment=1,AntennaUnitGroup=2,RfBranch=1
+auPortRef 
+dlAttenuation 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+dlTrafficDelay 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+rfPortRef 
+tmaRef 
+ulAttenuation 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+ulTrafficDelay 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+userLabel 
+end
+
+crn Equipment=1,AntennaUnitGroup=2,RfBranch=2
+auPortRef 
+dlAttenuation 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+dlTrafficDelay 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+rfPortRef 
+tmaRef 
+ulAttenuation 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+ulTrafficDelay 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+userLabel 
+end
+
+crn Equipment=1,AntennaUnitGroup=2,RfBranch=3
+auPortRef 
+dlAttenuation 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+dlTrafficDelay 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+rfPortRef 
+tmaRef 
+ulAttenuation 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+ulTrafficDelay 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+userLabel 
+end
+
+crn Equipment=1,AntennaUnitGroup=2,RfBranch=4
+auPortRef 
+dlAttenuation 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+dlTrafficDelay 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+rfPortRef 
+tmaRef 
+ulAttenuation 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+ulTrafficDelay 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+userLabel 
+end
+
+crn Equipment=1,AntennaUnitGroup=4
+end
+
+crn Equipment=1,AntennaUnitGroup=4,AntennaUnit=1
+mechanicalAntennaTilt 20
+end
+
+crn Equipment=1,AntennaUnitGroup=4,AntennaUnit=1,AntennaSubunit=1
+azimuthHalfPowerBeamwidth 65
+commonChBeamfrmPortMap 0
+customComChBeamfrmWtsAmplitude 0,0,0,0,0,0,0,0
+customComChBeamfrmWtsPhase 0,0,0,0,0,0,0,0
+retSubunitRef 
+end
+
+crn Equipment=1,AntennaUnitGroup=1,RfBranch=1
+auPortRef 
+dlAttenuation 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+dlTrafficDelay 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+rfPortRef 
+tmaRef 
+ulAttenuation 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+ulTrafficDelay 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+userLabel 
+end
+
+crn Equipment=1,AntennaUnitGroup=1,RfBranch=2
+auPortRef 
+dlAttenuation 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+dlTrafficDelay 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+rfPortRef 
+tmaRef 
+ulAttenuation 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+ulTrafficDelay 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+userLabel 
+end
+
+crn Equipment=1,AntennaUnitGroup=1,RfBranch=3
+auPortRef 
+dlAttenuation 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+dlTrafficDelay 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+rfPortRef 
+tmaRef 
+ulAttenuation 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+ulTrafficDelay 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+userLabel 
+end
+
+crn Equipment=1,AntennaUnitGroup=1,RfBranch=4
+auPortRef 
+dlAttenuation 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+dlTrafficDelay 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+rfPortRef 
+tmaRef 
+ulAttenuation 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+ulTrafficDelay 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+userLabel 
+end
+
+crn Equipment=1,AntennaUnitGroup=2,RfBranch=1
+auPortRef 
+dlAttenuation 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+dlTrafficDelay 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+rfPortRef 
+tmaRef 
+ulAttenuation 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+ulTrafficDelay 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+userLabel 
+end
+
+crn Equipment=1,AntennaUnitGroup=2,RfBranch=2
+auPortRef 
+dlAttenuation 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+dlTrafficDelay 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+rfPortRef 
+tmaRef 
+ulAttenuation 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+ulTrafficDelay 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+userLabel 
+end
+
+crn Equipment=1,AntennaUnitGroup=2,RfBranch=3
+auPortRef 
+dlAttenuation 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+dlTrafficDelay 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+rfPortRef 
+tmaRef 
+ulAttenuation 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+ulTrafficDelay 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+userLabel 
+end
+
+crn Equipment=1,AntennaUnitGroup=2,RfBranch=4
+auPortRef 
+dlAttenuation 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+dlTrafficDelay 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+rfPortRef 
+tmaRef 
+ulAttenuation 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+ulTrafficDelay 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+userLabel 
+end
+
+crn Equipment=1,AntennaUnitGroup=3,RfBranch=1
+auPortRef 
+dlAttenuation 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+dlTrafficDelay 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+rfPortRef 
+tmaRef 
+ulAttenuation 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+ulTrafficDelay 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+userLabel 
+end
+
+crn Equipment=1,AntennaUnitGroup=3,RfBranch=2
+auPortRef 
+dlAttenuation 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+dlTrafficDelay 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+rfPortRef 
+tmaRef 
+ulAttenuation 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+ulTrafficDelay 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+userLabel 
+end
+
+crn Equipment=1,AntennaUnitGroup=3,RfBranch=3
+auPortRef 
+dlAttenuation 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+dlTrafficDelay 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+rfPortRef 
+tmaRef 
+ulAttenuation 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+ulTrafficDelay 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+userLabel 
+end
+
+crn Equipment=1,AntennaUnitGroup=3,RfBranch=4
+auPortRef 
+dlAttenuation 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+dlTrafficDelay 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+rfPortRef 
+tmaRef 
+ulAttenuation 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+ulTrafficDelay 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+userLabel 
+end
+
+crn Equipment=1,AntennaUnitGroup=1,AntennaUnit=1,AntennaSubunit=1,AuPort=1
+userLabel 
+end
+
+crn Equipment=1,AntennaUnitGroup=1,AntennaUnit=1,AntennaSubunit=1,AuPort=2
+userLabel 
+end
+
+crn Equipment=1,AntennaUnitGroup=1,AntennaUnit=1,AntennaSubunit=1,AuPort=3
+userLabel 
+end
+
+crn Equipment=1,AntennaUnitGroup=1,AntennaUnit=1,AntennaSubunit=1,AuPort=4
+userLabel 
+end
+
+crn Equipment=1,AntennaUnitGroup=2,AntennaUnit=1,AntennaSubunit=1,AuPort=1
+userLabel 
+end
+
+crn Equipment=1,AntennaUnitGroup=2,AntennaUnit=1,AntennaSubunit=1,AuPort=2
+userLabel 
+end
+
+crn Equipment=1,AntennaUnitGroup=2,AntennaUnit=1,AntennaSubunit=1,AuPort=3
+userLabel 
+end
+
+crn Equipment=1,AntennaUnitGroup=2,AntennaUnit=1,AntennaSubunit=1,AuPort=4
+userLabel 
+end
+
+crn Equipment=1,AntennaUnitGroup=3,AntennaUnit=1,AntennaSubunit=1,AuPort=1
+userLabel 
+end
+
+crn Equipment=1,AntennaUnitGroup=3,AntennaUnit=1,AntennaSubunit=1,AuPort=2
+userLabel 
+end
+
+crn Equipment=1,AntennaUnitGroup=3,AntennaUnit=1,AntennaSubunit=1,AuPort=3
+userLabel 
+end
+
+crn Equipment=1,AntennaUnitGroup=3,AntennaUnit=1,AntennaSubunit=1,AuPort=4
+userLabel 
+end
+
+crn Equipment=1,AntennaUnitGroup=4,AntennaUnit=1,AntennaSubunit=1,AuPort=1
+userLabel 
+end
+
+crn Equipment=1,AntennaUnitGroup=4,AntennaUnit=1,AntennaSubunit=1,AuPort=2
+userLabel 
+end
+
+crn Equipment=1,AntennaUnitGroup=5,AntennaUnit=1,AntennaSubunit=1,AuPort=1
+userLabel 
+end
+
+crn Equipment=1,AntennaUnitGroup=5,AntennaUnit=1,AntennaSubunit=1,AuPort=2
+userLabel 
+end
+
+crn Equipment=1,AntennaUnitGroup=6,AntennaUnit=1,AntennaSubunit=1,AuPort=1
+userLabel 
+end
+
+crn Equipment=1,AntennaUnitGroup=6,AntennaUnit=1,AntennaSubunit=1,AuPort=2
+userLabel 
+end
+
+crn Equipment=1,AntennaUnitGroup=7,AntennaUnit=1,AntennaSubunit=1,AuPort=1
+userLabel 
+end
+
+crn Equipment=1,AntennaUnitGroup=7,AntennaUnit=1,AntennaSubunit=1,AuPort=2
+userLabel 
+end
+
+crn Equipment=1,AntennaUnitGroup=7,AntennaUnit=1,AntennaSubunit=1,AuPort=3
+userLabel 
+end
+
+crn Equipment=1,AntennaUnitGroup=7,AntennaUnit=1,AntennaSubunit=1,AuPort=4
+userLabel 
+end
+
+crn Equipment=1,AntennaUnitGroup=8,AntennaUnit=1,AntennaSubunit=1,AuPort=1
+userLabel 
+end
+
+crn Equipment=1,AntennaUnitGroup=8,AntennaUnit=1,AntennaSubunit=1,AuPort=2
+userLabel 
+end
+
+crn Equipment=1,AntennaUnitGroup=8,AntennaUnit=1,AntennaSubunit=1,AuPort=3
+userLabel 
+end
+
+crn Equipment=1,AntennaUnitGroup=8,AntennaUnit=1,AntennaSubunit=1,AuPort=4
+userLabel 
+end
+
+crn Equipment=1,AntennaUnitGroup=9,AntennaUnit=1,AntennaSubunit=1,AuPort=1
+userLabel 
+end
+
+crn Equipment=1,AntennaUnitGroup=9,AntennaUnit=1,AntennaSubunit=1,AuPort=2
+userLabel 
+end
+
+crn Equipment=1,AntennaUnitGroup=9,AntennaUnit=1,AntennaSubunit=1,AuPort=3
+userLabel 
+end
+
+crn Equipment=1,AntennaUnitGroup=9,AntennaUnit=1,AntennaSubunit=1,AuPort=4
+userLabel 
+end
+
+crn Equipment=1,AntennaUnitGroup=1
+end
+
+crn Equipment=1,AntennaUnitGroup=1,AntennaUnit=1
+mechanicalAntennaTilt 20
+end
+
+crn Equipment=1,AntennaUnitGroup=1,AntennaUnit=1,AntennaSubunit=1
+azimuthHalfPowerBeamwidth 65
+commonChBeamfrmPortMap 0
+customComChBeamfrmWtsAmplitude 0,0,0,0,0,0,0,0
+customComChBeamfrmWtsPhase 0,0,0,0,0,0,0,0
+retSubunitRef 
+end
+
+crn Equipment=1,AntennaUnitGroup=1
+end
+
+crn Equipment=1,AntennaUnitGroup=1,AntennaUnit=1
+mechanicalAntennaTilt 20
+end
+
+crn Equipment=1,AntennaUnitGroup=1,AntennaUnit=1,AntennaSubunit=1
+azimuthHalfPowerBeamwidth 65
+commonChBeamfrmPortMap 0
+customComChBeamfrmWtsAmplitude 0,0,0,0,0,0,0,0
+customComChBeamfrmWtsPhase 0,0,0,0,0,0,0,0
+retSubunitRef 
+end
+
+crn Equipment=1,AntennaUnitGroup=1
+end
+
+crn Equipment=1,AntennaUnitGroup=1,AntennaUnit=1
+mechanicalAntennaTilt 20
+end
+
+crn Equipment=1,AntennaUnitGroup=1,AntennaUnit=1,AntennaSubunit=1
+azimuthHalfPowerBeamwidth 65
+commonChBeamfrmPortMap 0
+customComChBeamfrmWtsAmplitude 0,0,0,0,0,0,0,0
+customComChBeamfrmWtsPhase 0,0,0,0,0,0,0,0
+retSubunitRef 
+end
+
+crn Equipment=1,AntennaUnitGroup=1
+end
+
+crn Equipment=1,AntennaUnitGroup=1,AntennaUnit=1
+mechanicalAntennaTilt 20
+end
+
+crn Equipment=1,AntennaUnitGroup=1,AntennaUnit=1,AntennaSubunit=1
+azimuthHalfPowerBeamwidth 65
+commonChBeamfrmPortMap 0
+customComChBeamfrmWtsAmplitude 0,0,0,0,0,0,0,0
+customComChBeamfrmWtsPhase 0,0,0,0,0,0,0,0
+retSubunitRef 
+end
+
+crn Equipment=1,AntennaUnitGroup=2
+end
+
+crn Equipment=1,AntennaUnitGroup=2,AntennaUnit=1
+mechanicalAntennaTilt 20
+end
+
+crn Equipment=1,AntennaUnitGroup=2,AntennaUnit=1,AntennaSubunit=1
+azimuthHalfPowerBeamwidth 65
+commonChBeamfrmPortMap 0
+customComChBeamfrmWtsAmplitude 0,0,0,0,0,0,0,0
+customComChBeamfrmWtsPhase 0,0,0,0,0,0,0,0
+retSubunitRef 
+end
+
+crn Equipment=1,AntennaUnitGroup=1,RfBranch=1
+auPortRef 
+dlAttenuation 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+dlTrafficDelay 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+rfPortRef 
+tmaRef 
+ulAttenuation 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+ulTrafficDelay 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+userLabel 
+end
+
+crn Equipment=1,AntennaUnitGroup=1,RfBranch=2
+auPortRef 
+dlAttenuation 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+dlTrafficDelay 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+rfPortRef 
+tmaRef 
+ulAttenuation 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+ulTrafficDelay 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+userLabel 
+end
+
+crn Equipment=1,AntennaUnitGroup=1,RfBranch=3
+auPortRef 
+dlAttenuation 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+dlTrafficDelay 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+rfPortRef 
+tmaRef 
+ulAttenuation 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+ulTrafficDelay 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+userLabel 
+end
+
+crn Equipment=1,AntennaUnitGroup=1,RfBranch=4
+auPortRef 
+dlAttenuation 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+dlTrafficDelay 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+rfPortRef 
+tmaRef 
+ulAttenuation 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+ulTrafficDelay 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+userLabel 
+end
+
+crn Equipment=1,AntennaUnitGroup=3
+end
+
+crn Equipment=1,AntennaUnitGroup=3,AntennaUnit=1
+mechanicalAntennaTilt 20
+end
+
+crn Equipment=1,AntennaUnitGroup=3,AntennaUnit=1,AntennaSubunit=1
+azimuthHalfPowerBeamwidth 65
+commonChBeamfrmPortMap 0
+customComChBeamfrmWtsAmplitude 0,0,0,0,0,0,0,0
+customComChBeamfrmWtsPhase 0,0,0,0,0,0,0,0
+retSubunitRef 
+end
+
+crn Equipment=1,AntennaUnitGroup=1,RfBranch=1
+auPortRef 
+dlAttenuation 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+dlTrafficDelay 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+rfPortRef 
+tmaRef 
+ulAttenuation 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+ulTrafficDelay 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+userLabel 
+end
+
+crn Equipment=1,AntennaUnitGroup=1,RfBranch=2
+auPortRef 
+dlAttenuation 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+dlTrafficDelay 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+rfPortRef 
+tmaRef 
+ulAttenuation 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+ulTrafficDelay 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+userLabel 
+end
+
+crn Equipment=1,AntennaUnitGroup=1,RfBranch=3
+auPortRef 
+dlAttenuation 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+dlTrafficDelay 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+rfPortRef 
+tmaRef 
+ulAttenuation 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+ulTrafficDelay 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+userLabel 
+end
+
+crn Equipment=1,AntennaUnitGroup=1,RfBranch=4
+auPortRef 
+dlAttenuation 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+dlTrafficDelay 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+rfPortRef 
+tmaRef 
+ulAttenuation 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+ulTrafficDelay 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+userLabel 
+end
+
+crn Equipment=1,AntennaUnitGroup=2,RfBranch=1
+auPortRef 
+dlAttenuation 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+dlTrafficDelay 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+rfPortRef 
+tmaRef 
+ulAttenuation 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+ulTrafficDelay 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+userLabel 
+end
+
+crn Equipment=1,AntennaUnitGroup=2,RfBranch=2
+auPortRef 
+dlAttenuation 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+dlTrafficDelay 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+rfPortRef 
+tmaRef 
+ulAttenuation 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+ulTrafficDelay 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+userLabel 
+end
+
+crn Equipment=1,AntennaUnitGroup=2,RfBranch=3
+auPortRef 
+dlAttenuation 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+dlTrafficDelay 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+rfPortRef 
+tmaRef 
+ulAttenuation 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+ulTrafficDelay 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+userLabel 
+end
+
+crn Equipment=1,AntennaUnitGroup=2,RfBranch=4
+auPortRef 
+dlAttenuation 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+dlTrafficDelay 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+rfPortRef 
+tmaRef 
+ulAttenuation 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+ulTrafficDelay 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+userLabel 
+end
+
+crn Equipment=1,AntennaUnitGroup=4
+end
+
+crn Equipment=1,AntennaUnitGroup=4,AntennaUnit=1
+mechanicalAntennaTilt 20
+end
+
+crn Equipment=1,AntennaUnitGroup=4,AntennaUnit=1,AntennaSubunit=1
+azimuthHalfPowerBeamwidth 65
+commonChBeamfrmPortMap 0
+customComChBeamfrmWtsAmplitude 0,0,0,0,0,0,0,0
+customComChBeamfrmWtsPhase 0,0,0,0,0,0,0,0
+retSubunitRef 
+end
+
+crn Equipment=1,AntennaUnitGroup=1,RfBranch=1
+auPortRef 
+dlAttenuation 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+dlTrafficDelay 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+rfPortRef 
+tmaRef 
+ulAttenuation 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+ulTrafficDelay 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+userLabel 
+end
+
+crn Equipment=1,AntennaUnitGroup=1,RfBranch=2
+auPortRef 
+dlAttenuation 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+dlTrafficDelay 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+rfPortRef 
+tmaRef 
+ulAttenuation 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+ulTrafficDelay 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+userLabel 
+end
+
+crn Equipment=1,AntennaUnitGroup=1,RfBranch=3
+auPortRef 
+dlAttenuation 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+dlTrafficDelay 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+rfPortRef 
+tmaRef 
+ulAttenuation 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+ulTrafficDelay 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+userLabel 
+end
+
+crn Equipment=1,AntennaUnitGroup=1,RfBranch=4
+auPortRef 
+dlAttenuation 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+dlTrafficDelay 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+rfPortRef 
+tmaRef 
+ulAttenuation 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+ulTrafficDelay 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+userLabel 
+end
+
+crn Equipment=1,AntennaUnitGroup=2,RfBranch=1
+auPortRef 
+dlAttenuation 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+dlTrafficDelay 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+rfPortRef 
+tmaRef 
+ulAttenuation 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+ulTrafficDelay 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+userLabel 
+end
+
+crn Equipment=1,AntennaUnitGroup=2,RfBranch=2
+auPortRef 
+dlAttenuation 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+dlTrafficDelay 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+rfPortRef 
+tmaRef 
+ulAttenuation 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+ulTrafficDelay 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+userLabel 
+end
+
+crn Equipment=1,AntennaUnitGroup=2,RfBranch=3
+auPortRef 
+dlAttenuation 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+dlTrafficDelay 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+rfPortRef 
+tmaRef 
+ulAttenuation 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+ulTrafficDelay 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+userLabel 
+end
+
+crn Equipment=1,AntennaUnitGroup=2,RfBranch=4
+auPortRef 
+dlAttenuation 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+dlTrafficDelay 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+rfPortRef 
+tmaRef 
+ulAttenuation 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+ulTrafficDelay 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+userLabel 
+end
+
+crn Equipment=1,AntennaUnitGroup=3,RfBranch=1
+auPortRef 
+dlAttenuation 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+dlTrafficDelay 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+rfPortRef 
+tmaRef 
+ulAttenuation 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+ulTrafficDelay 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+userLabel 
+end
+
+crn Equipment=1,AntennaUnitGroup=3,RfBranch=2
+auPortRef 
+dlAttenuation 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+dlTrafficDelay 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+rfPortRef 
+tmaRef 
+ulAttenuation 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+ulTrafficDelay 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+userLabel 
+end
+
+crn Equipment=1,AntennaUnitGroup=3,RfBranch=3
+auPortRef 
+dlAttenuation 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+dlTrafficDelay 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+rfPortRef 
+tmaRef 
+ulAttenuation 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+ulTrafficDelay 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+userLabel 
+end
+
+crn Equipment=1,AntennaUnitGroup=3,RfBranch=4
+auPortRef 
+dlAttenuation 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+dlTrafficDelay 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+rfPortRef 
+tmaRef 
+ulAttenuation 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+ulTrafficDelay 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+userLabel 
+end
+
+crn Equipment=1,AntennaUnitGroup=1
+end
+
+crn Equipment=1,AntennaUnitGroup=1,AntennaUnit=1
+mechanicalAntennaTilt 20
+end
+
+crn Equipment=1,AntennaUnitGroup=1,AntennaUnit=1,AntennaSubunit=1
+azimuthHalfPowerBeamwidth 65
+commonChBeamfrmPortMap 0
+customComChBeamfrmWtsAmplitude 0,0,0,0,0,0,0,0
+customComChBeamfrmWtsPhase 0,0,0,0,0,0,0,0
+retSubunitRef 
+end
+
+crn Equipment=1,AntennaUnitGroup=2
+end
+
+crn Equipment=1,AntennaUnitGroup=2,AntennaUnit=1
+mechanicalAntennaTilt 20
+end
+
+crn Equipment=1,AntennaUnitGroup=2,AntennaUnit=1,AntennaSubunit=1
+azimuthHalfPowerBeamwidth 65
+commonChBeamfrmPortMap 0
+customComChBeamfrmWtsAmplitude 0,0,0,0,0,0,0,0
+customComChBeamfrmWtsPhase 0,0,0,0,0,0,0,0
+retSubunitRef 
+end
+
+crn Equipment=1,AntennaUnitGroup=1,RfBranch=1
+auPortRef 
+dlAttenuation 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+dlTrafficDelay 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+rfPortRef 
+tmaRef 
+ulAttenuation 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+ulTrafficDelay 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+userLabel 
+end
+
+crn Equipment=1,AntennaUnitGroup=1,RfBranch=2
+auPortRef 
+dlAttenuation 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+dlTrafficDelay 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+rfPortRef 
+tmaRef 
+ulAttenuation 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+ulTrafficDelay 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+userLabel 
+end
+
+crn Equipment=1,AntennaUnitGroup=1,RfBranch=3
+auPortRef 
+dlAttenuation 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+dlTrafficDelay 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+rfPortRef 
+tmaRef 
+ulAttenuation 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+ulTrafficDelay 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+userLabel 
+end
+
+crn Equipment=1,AntennaUnitGroup=1,RfBranch=4
+auPortRef 
+dlAttenuation 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+dlTrafficDelay 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+rfPortRef 
+tmaRef 
+ulAttenuation 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+ulTrafficDelay 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+userLabel 
+end
+
+crn Equipment=1,AntennaUnitGroup=3
+end
+
+crn Equipment=1,AntennaUnitGroup=3,AntennaUnit=1
+mechanicalAntennaTilt 20
+end
+
+crn Equipment=1,AntennaUnitGroup=3,AntennaUnit=1,AntennaSubunit=1
+azimuthHalfPowerBeamwidth 65
+commonChBeamfrmPortMap 0
+customComChBeamfrmWtsAmplitude 0,0,0,0,0,0,0,0
+customComChBeamfrmWtsPhase 0,0,0,0,0,0,0,0
+retSubunitRef 
+end
+
+crn Equipment=1,AntennaUnitGroup=1,RfBranch=1
+auPortRef 
+dlAttenuation 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+dlTrafficDelay 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+rfPortRef 
+tmaRef 
+ulAttenuation 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+ulTrafficDelay 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+userLabel 
+end
+
+crn Equipment=1,AntennaUnitGroup=1,RfBranch=2
+auPortRef 
+dlAttenuation 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+dlTrafficDelay 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+rfPortRef 
+tmaRef 
+ulAttenuation 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+ulTrafficDelay 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+userLabel 
+end
+
+crn Equipment=1,AntennaUnitGroup=1,RfBranch=3
+auPortRef 
+dlAttenuation 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+dlTrafficDelay 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+rfPortRef 
+tmaRef 
+ulAttenuation 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+ulTrafficDelay 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+userLabel 
+end
+
+crn Equipment=1,AntennaUnitGroup=1,RfBranch=4
+auPortRef 
+dlAttenuation 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+dlTrafficDelay 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+rfPortRef 
+tmaRef 
+ulAttenuation 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+ulTrafficDelay 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+userLabel 
+end
+
+crn Equipment=1,AntennaUnitGroup=2,RfBranch=1
+auPortRef 
+dlAttenuation 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+dlTrafficDelay 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+rfPortRef 
+tmaRef 
+ulAttenuation 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+ulTrafficDelay 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+userLabel 
+end
+
+crn Equipment=1,AntennaUnitGroup=2,RfBranch=2
+auPortRef 
+dlAttenuation 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+dlTrafficDelay 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+rfPortRef 
+tmaRef 
+ulAttenuation 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+ulTrafficDelay 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+userLabel 
+end
+
+crn Equipment=1,AntennaUnitGroup=2,RfBranch=3
+auPortRef 
+dlAttenuation 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+dlTrafficDelay 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+rfPortRef 
+tmaRef 
+ulAttenuation 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+ulTrafficDelay 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+userLabel 
+end
+
+crn Equipment=1,AntennaUnitGroup=2,RfBranch=4
+auPortRef 
+dlAttenuation 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+dlTrafficDelay 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+rfPortRef 
+tmaRef 
+ulAttenuation 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+ulTrafficDelay 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+userLabel 
+end
+
+crn Equipment=1,AntennaUnitGroup=4
+end
+
+crn Equipment=1,AntennaUnitGroup=4,AntennaUnit=1
+mechanicalAntennaTilt 20
+end
+
+crn Equipment=1,AntennaUnitGroup=4,AntennaUnit=1,AntennaSubunit=1
+azimuthHalfPowerBeamwidth 65
+commonChBeamfrmPortMap 0
+customComChBeamfrmWtsAmplitude 0,0,0,0,0,0,0,0
+customComChBeamfrmWtsPhase 0,0,0,0,0,0,0,0
+retSubunitRef 
+end
+
+crn Equipment=1,AntennaUnitGroup=1,RfBranch=1
+auPortRef 
+dlAttenuation 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+dlTrafficDelay 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+rfPortRef 
+tmaRef 
+ulAttenuation 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+ulTrafficDelay 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+userLabel 
+end
+
+crn Equipment=1,AntennaUnitGroup=1,RfBranch=2
+auPortRef 
+dlAttenuation 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+dlTrafficDelay 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+rfPortRef 
+tmaRef 
+ulAttenuation 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+ulTrafficDelay 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+userLabel 
+end
+
+crn Equipment=1,AntennaUnitGroup=1,RfBranch=3
+auPortRef 
+dlAttenuation 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+dlTrafficDelay 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+rfPortRef 
+tmaRef 
+ulAttenuation 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+ulTrafficDelay 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+userLabel 
+end
+
+crn Equipment=1,AntennaUnitGroup=1,RfBranch=4
+auPortRef 
+dlAttenuation 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+dlTrafficDelay 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+rfPortRef 
+tmaRef 
+ulAttenuation 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+ulTrafficDelay 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+userLabel 
+end
+
+crn Equipment=1,AntennaUnitGroup=2,RfBranch=1
+auPortRef 
+dlAttenuation 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+dlTrafficDelay 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+rfPortRef 
+tmaRef 
+ulAttenuation 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+ulTrafficDelay 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+userLabel 
+end
+
+crn Equipment=1,AntennaUnitGroup=2,RfBranch=2
+auPortRef 
+dlAttenuation 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+dlTrafficDelay 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+rfPortRef 
+tmaRef 
+ulAttenuation 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+ulTrafficDelay 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+userLabel 
+end
+
+crn Equipment=1,AntennaUnitGroup=2,RfBranch=3
+auPortRef 
+dlAttenuation 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+dlTrafficDelay 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+rfPortRef 
+tmaRef 
+ulAttenuation 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+ulTrafficDelay 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+userLabel 
+end
+
+crn Equipment=1,AntennaUnitGroup=2,RfBranch=4
+auPortRef 
+dlAttenuation 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+dlTrafficDelay 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+rfPortRef 
+tmaRef 
+ulAttenuation 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+ulTrafficDelay 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+userLabel 
+end
+
+crn Equipment=1,AntennaUnitGroup=3,RfBranch=1
+auPortRef 
+dlAttenuation 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+dlTrafficDelay 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+rfPortRef 
+tmaRef 
+ulAttenuation 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+ulTrafficDelay 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+userLabel 
+end
+
+crn Equipment=1,AntennaUnitGroup=3,RfBranch=2
+auPortRef 
+dlAttenuation 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+dlTrafficDelay 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+rfPortRef 
+tmaRef 
+ulAttenuation 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+ulTrafficDelay 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+userLabel 
+end
+
+crn Equipment=1,AntennaUnitGroup=3,RfBranch=3
+auPortRef 
+dlAttenuation 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+dlTrafficDelay 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+rfPortRef 
+tmaRef 
+ulAttenuation 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+ulTrafficDelay 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+userLabel 
+end
+
+crn Equipment=1,AntennaUnitGroup=3,RfBranch=4
+auPortRef 
+dlAttenuation 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+dlTrafficDelay 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+rfPortRef 
+tmaRef 
+ulAttenuation 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+ulTrafficDelay 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+userLabel 
+end
+
+crn Equipment=1,AntennaUnitGroup=1
+end
+
+crn Equipment=1,AntennaUnitGroup=1,AntennaUnit=1
+mechanicalAntennaTilt 20
+end
+
+crn Equipment=1,AntennaUnitGroup=1,AntennaUnit=1,AntennaSubunit=1
+azimuthHalfPowerBeamwidth 65
+commonChBeamfrmPortMap 0
+customComChBeamfrmWtsAmplitude 0,0,0,0,0,0,0,0
+customComChBeamfrmWtsPhase 0,0,0,0,0,0,0,0
+retSubunitRef 
+end
+
+crn Equipment=1,AntennaUnitGroup=2
+end
+
+crn Equipment=1,AntennaUnitGroup=2,AntennaUnit=1
+mechanicalAntennaTilt 20
+end
+
+crn Equipment=1,AntennaUnitGroup=2,AntennaUnit=1,AntennaSubunit=1
+azimuthHalfPowerBeamwidth 65
+commonChBeamfrmPortMap 0
+customComChBeamfrmWtsAmplitude 0,0,0,0,0,0,0,0
+customComChBeamfrmWtsPhase 0,0,0,0,0,0,0,0
+retSubunitRef 
+end
+
+crn Equipment=1,AntennaUnitGroup=1,RfBranch=1
+auPortRef 
+dlAttenuation 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+dlTrafficDelay 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+rfPortRef 
+tmaRef 
+ulAttenuation 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+ulTrafficDelay 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+userLabel 
+end
+
+crn Equipment=1,AntennaUnitGroup=1,RfBranch=2
+auPortRef 
+dlAttenuation 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+dlTrafficDelay 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+rfPortRef 
+tmaRef 
+ulAttenuation 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+ulTrafficDelay 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+userLabel 
+end
+
+crn Equipment=1,AntennaUnitGroup=1,RfBranch=3
+auPortRef 
+dlAttenuation 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+dlTrafficDelay 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+rfPortRef 
+tmaRef 
+ulAttenuation 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+ulTrafficDelay 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+userLabel 
+end
+
+crn Equipment=1,AntennaUnitGroup=1,RfBranch=4
+auPortRef 
+dlAttenuation 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+dlTrafficDelay 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+rfPortRef 
+tmaRef 
+ulAttenuation 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+ulTrafficDelay 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+userLabel 
+end
+
+crn Equipment=1,AntennaUnitGroup=3
+end
+
+crn Equipment=1,AntennaUnitGroup=3,AntennaUnit=1
+mechanicalAntennaTilt 20
+end
+
+crn Equipment=1,AntennaUnitGroup=3,AntennaUnit=1,AntennaSubunit=1
+azimuthHalfPowerBeamwidth 65
+commonChBeamfrmPortMap 0
+customComChBeamfrmWtsAmplitude 0,0,0,0,0,0,0,0
+customComChBeamfrmWtsPhase 0,0,0,0,0,0,0,0
+retSubunitRef 
+end
+
+crn Equipment=1,AntennaUnitGroup=1,RfBranch=1
+auPortRef 
+dlAttenuation 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+dlTrafficDelay 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+rfPortRef 
+tmaRef 
+ulAttenuation 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+ulTrafficDelay 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+userLabel 
+end
+
+crn Equipment=1,AntennaUnitGroup=1,RfBranch=2
+auPortRef 
+dlAttenuation 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+dlTrafficDelay 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+rfPortRef 
+tmaRef 
+ulAttenuation 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+ulTrafficDelay 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+userLabel 
+end
+
+crn Equipment=1,AntennaUnitGroup=1,RfBranch=3
+auPortRef 
+dlAttenuation 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+dlTrafficDelay 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+rfPortRef 
+tmaRef 
+ulAttenuation 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+ulTrafficDelay 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+userLabel 
+end
+
+crn Equipment=1,AntennaUnitGroup=1,RfBranch=4
+auPortRef 
+dlAttenuation 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+dlTrafficDelay 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+rfPortRef 
+tmaRef 
+ulAttenuation 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+ulTrafficDelay 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+userLabel 
+end
+
+crn Equipment=1,AntennaUnitGroup=2,RfBranch=1
+auPortRef 
+dlAttenuation 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+dlTrafficDelay 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+rfPortRef 
+tmaRef 
+ulAttenuation 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+ulTrafficDelay 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+userLabel 
+end
+
+crn Equipment=1,AntennaUnitGroup=2,RfBranch=2
+auPortRef 
+dlAttenuation 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+dlTrafficDelay 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+rfPortRef 
+tmaRef 
+ulAttenuation 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+ulTrafficDelay 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+userLabel 
+end
+
+crn Equipment=1,AntennaUnitGroup=2,RfBranch=3
+auPortRef 
+dlAttenuation 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+dlTrafficDelay 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+rfPortRef 
+tmaRef 
+ulAttenuation 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+ulTrafficDelay 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+userLabel 
+end
+
+crn Equipment=1,AntennaUnitGroup=2,RfBranch=4
+auPortRef 
+dlAttenuation 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+dlTrafficDelay 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+rfPortRef 
+tmaRef 
+ulAttenuation 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+ulTrafficDelay 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+userLabel 
+end
+
+crn Equipment=1,AntennaUnitGroup=4
+end
+
+crn Equipment=1,AntennaUnitGroup=4,AntennaUnit=1
+mechanicalAntennaTilt 20
+end
+
+crn Equipment=1,AntennaUnitGroup=4,AntennaUnit=1,AntennaSubunit=1
+azimuthHalfPowerBeamwidth 65
+commonChBeamfrmPortMap 0
+customComChBeamfrmWtsAmplitude 0,0,0,0,0,0,0,0
+customComChBeamfrmWtsPhase 0,0,0,0,0,0,0,0
+retSubunitRef 
+end
+
+crn Equipment=1,AntennaUnitGroup=1,RfBranch=1
+auPortRef 
+dlAttenuation 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+dlTrafficDelay 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+rfPortRef 
+tmaRef 
+ulAttenuation 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+ulTrafficDelay 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+userLabel 
+end
+
+crn Equipment=1,AntennaUnitGroup=1,RfBranch=2
+auPortRef 
+dlAttenuation 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+dlTrafficDelay 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+rfPortRef 
+tmaRef 
+ulAttenuation 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+ulTrafficDelay 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+userLabel 
+end
+
+crn Equipment=1,AntennaUnitGroup=1,RfBranch=3
+auPortRef 
+dlAttenuation 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+dlTrafficDelay 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+rfPortRef 
+tmaRef 
+ulAttenuation 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+ulTrafficDelay 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+userLabel 
+end
+
+crn Equipment=1,AntennaUnitGroup=1,RfBranch=4
+auPortRef 
+dlAttenuation 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+dlTrafficDelay 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+rfPortRef 
+tmaRef 
+ulAttenuation 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+ulTrafficDelay 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+userLabel 
+end
+
+crn Equipment=1,AntennaUnitGroup=2,RfBranch=1
+auPortRef 
+dlAttenuation 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+dlTrafficDelay 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+rfPortRef 
+tmaRef 
+ulAttenuation 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+ulTrafficDelay 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+userLabel 
+end
+
+crn Equipment=1,AntennaUnitGroup=2,RfBranch=2
+auPortRef 
+dlAttenuation 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+dlTrafficDelay 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+rfPortRef 
+tmaRef 
+ulAttenuation 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+ulTrafficDelay 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+userLabel 
+end
+
+crn Equipment=1,AntennaUnitGroup=2,RfBranch=3
+auPortRef 
+dlAttenuation 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+dlTrafficDelay 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+rfPortRef 
+tmaRef 
+ulAttenuation 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+ulTrafficDelay 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+userLabel 
+end
+
+crn Equipment=1,AntennaUnitGroup=2,RfBranch=4
+auPortRef 
+dlAttenuation 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+dlTrafficDelay 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+rfPortRef 
+tmaRef 
+ulAttenuation 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+ulTrafficDelay 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+userLabel 
+end
+
+crn Equipment=1,AntennaUnitGroup=3,RfBranch=1
+auPortRef 
+dlAttenuation 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+dlTrafficDelay 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+rfPortRef 
+tmaRef 
+ulAttenuation 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+ulTrafficDelay 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+userLabel 
+end
+
+crn Equipment=1,AntennaUnitGroup=3,RfBranch=2
+auPortRef 
+dlAttenuation 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+dlTrafficDelay 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+rfPortRef 
+tmaRef 
+ulAttenuation 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+ulTrafficDelay 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+userLabel 
+end
+
+crn Equipment=1,AntennaUnitGroup=3,RfBranch=3
+auPortRef 
+dlAttenuation 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+dlTrafficDelay 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+rfPortRef 
+tmaRef 
+ulAttenuation 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+ulTrafficDelay 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+userLabel 
+end
+
+crn Equipment=1,AntennaUnitGroup=3,RfBranch=4
+auPortRef 
+dlAttenuation 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+dlTrafficDelay 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+rfPortRef 
+tmaRef 
+ulAttenuation 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+ulTrafficDelay 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+userLabel 
+end
+
+crn Equipment=1,AntennaUnitGroup=
+end
+
+crn Equipment=1,AntennaUnitGroup=,AntennaUnit=1
+mechanicalAntennaTilt 
+end
+
+crn Equipment=1,AntennaUnitGroup=,AntennaUnit=1,AntennaSubunit=1
+azimuthHalfPowerBeamwidth 
+commonChBeamfrmPortMap 
+customComChBeamfrmWtsAmplitude 
+customComChBeamfrmWtsPhase 
+retSubunitRef 
+end
+

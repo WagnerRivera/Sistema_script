@@ -1,0 +1,43 @@
+<!-- Default box -->
+<div class="box">
+
+<div class="box-header with-border">
+  <h3 class="box-title">Descarga de Archivo BB5216</h3>
+
+  <div class="box-tools pull-right">
+    <button type="button" class="btn btn-box-tool" data-widget="remove" data-toggle="tooltip" title="remover">
+      <i class="fa fa-times"></i></button>
+    <!--<button type="button" class="btn btn-box-tool" data-widget="remove" data-toggle="tooltip" title="Remove">
+      <i class="fa fa-times"></i></button>-->
+  </div>
+</div>        
+<div class="box-body">
+	  <form action='{accion}' method='post' name="descar_bb5216">
+		  <!-- BEGIN tabla -->
+		  	<div class='box-body'>
+		    	<div class='form-group'>
+		    		<label>Selecionar el Archivo a Descargar</label>						
+						<select name='descarga' id="descarga" class='form-control' onchange="procesar('descar_bb5216');">
+							<option value="">Nombre del Archivo</option>
+							<!-- BEGIN registro -->							
+								<option value="{tabla.registro.id}">{tabla.registro.archivo}</option>
+							<!-- END registro -->							      														
+						</select>
+						<input type="hidden" name="nombre" value='bb5216'>
+							 
+				</div>				
+			</div>
+			<div  class='box-footer'>
+					<input type="submit" name="descargar" id="descargar" value='DESCARGAR' class='btn btn-primary' disabled="disabled">
+					<input type="submit" name="eliminar" value='ELIMINAR' class='btn btn-danger' disabled="disabled">
+			</div>
+			<!-- END tabla -->
+	  </form>
+</div>
+<!-- /.box-body 
+<div class="box-footer">
+  Footer
+</div>-->
+<!-- /.box-footer-->
+</div>
+  <!-- /.box -->  

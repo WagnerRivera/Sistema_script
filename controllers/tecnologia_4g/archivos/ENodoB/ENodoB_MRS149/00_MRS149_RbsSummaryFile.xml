@@ -1,0 +1,10 @@
+<summary:AutoIntegrationRbsSummaryFile
+    xmlns:summary="http://www.ericsson.se/RbsSummaryFileSchema"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.ericsson.se/RbsSummaryFileSchemaSummaryFile.xsd">
+<Format revision="F"/>
+<ConfigurationFiles
+    siteBasicFilePath="01_MRS149_SiteBasic.xml"
+    siteEquipmentFilePath="02_MRS149_SiteEquipment.xml"
+		upgradePackageFilePath="Baseband_SW_Upgrade_Package_16B_R12EB.zip"/>
+</summary:AutoIntegrationRbsSummaryFile>

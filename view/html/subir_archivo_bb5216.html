@@ -1,0 +1,72 @@
+<script type="text/javascript">
+	
+</script>
+<!-- Default box -->
+<div class="box">
+
+<div class="box-header with-border">
+  <h3 class="box-title">Subir archivo Excel para BB5216</h3>
+
+  <div class="box-tools pull-right">
+    <button type="button" class="btn btn-box-tool" data-widget="remove" data-toggle="tooltip" title="remover">
+      <i class="fa fa-times"></i></button>
+  </div>
+</div>        
+<div class="box-body">
+	  <form action='{accion}' method='post' name="spg" enctype="multipart/form-data">
+		  <!-- BEGIN tabla -->
+		  	<div class='box-body'>
+	  			<label>Producto</label>
+			  		<div class="form-group">			  			
+						<label  id="tooltip1">Fecha <a class="fa fa-info-circle"><span>Revisar fecha en Etiqueta BB5216</span></a></label>
+						<input title="Revisar fecha en Etiqueta BB5216" type="date" class="form-control" name="date" required="required" />
+					</div>
+					<div class="form-group">
+						<label id="tooltip1">Nombre <a class="fa fa-info-circle"><span>Revisar Nombre en Etiqueta BB5216</span></a></label>
+						<input title="Revisar Nombre en Etiqueta BB5216" type="text" class="form-control" name="name" required="required"  />
+					</div>
+					<div class="form-group">
+						<label id="tooltip1">Número <a class="fa fa-info-circle"><span>Revisar Número en Etiqueta BB5216</span></a></label>
+						<input title="Revisar Número en Etiqueta BB5216" type="text" class="form-control" name="number" required="required"  />
+					</div>
+					<div class="form-group">
+						<label id="tooltip1">Revisión <a class="fa fa-info-circle"><span>Revisar la Revisión en Etiqueta BB5216</span></a></label>
+						<input title="Revisar la Revisión en Etiqueta BB5216" type="text" class="form-control" name="revision" required="required"  />
+					</div>
+					<div class="form-group">
+						<label id="tooltip1">Serial <a class="fa fa-info-circle"><span>Revisar Serial en Etiqueta BB5216</span></a></label>
+						<input title="Revisar Serial en Etiqueta BB5216" type="text" class="form-control" name="serial" required="required"  />
+					</div>
+					<div class="form-group">
+						<label>Tramas <a class="fa fa-info-circle"></a></label>
+						<select name="trama" class="form-control">
+							<option>Seleccionar la Trama..</option>
+							<option value="TN_A">Electrica</option>
+							<option value="TN_B">Optica</option>
+						</select>
+					</div>
+			</div>
+		  	<div class='box-body'>		  					
+				<div class="form-group">
+					RND<input type="file" class="bnt bnt-defoal" name="archi_rnd"  />
+				</div>
+				<div class="form-group">
+					IP (Archivo WSHREPORT)<input type="file" class="bnt bnt-defoal" name="archi_ip"  />
+				</div>
+			</div>
+			<div class='box-footer'>
+					<input type="submit" name="procesar" value='PROCESAR' class='btn btn-primary' onclick="setInterval('cargar()',200)">
+			</div>
+			<div class='box-footer' id="oculto" style='display:none;'>
+				<progress id="barra" value="0" max="100" style="width:100%;" ></progress>
+			</div>
+			<!-- END tabla -->
+	  </form>
+</div>
+<!-- /.box-body 
+<div class="box-footer">
+  Footer
+</div>-->
+<!-- /.box-footer-->
+</div>
+  <!-- /.box -->  

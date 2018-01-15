@@ -1,0 +1,5 @@
+Columna == Site
+Columna == longDrxCycleOnly
+Columna == onDurationTimer
+Columna == shortDrxCycleTimer
+

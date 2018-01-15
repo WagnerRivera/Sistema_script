@@ -1,0 +1,80 @@
+--------------------------------------------------------
+Fecha Creacion 17/08/2017 16:15:15
+Script_TCU_3GPool_
+Nemonico del POP 3GPool
+Name_Site LO ETCHEVERS
+Generador INCOBECH
+Team_Integracion
+--------------------------------------------------------
+## +------------------------------------------------+ ##
+## |       CREATION OF SERVICE 2G VOICE             | ##
+## +------------------------------------------------+ ##
+starttransaction 1
+
+createmo 1 STN=0,E1T1Interface=0
+setmoattribute 1 STN=0,E1T1Interface=0 type e1
+
+createmo 1 STN=0,TGTransport=
+setmoattribute 1 STN=0,TGTransport= depIP_Interface STN=0,IPInterface=
+setmoattribute 1 STN=0,TGTransport=  pgw_ip_address 
+setmoattribute 1 STN=0,TGTransport=  DSCP_L2TP_CP 
+createmo 1 STN=0,TGTransport=,SuperChannel=0
+setmoattribute 1 STN=0,TGTransport=,SuperChannel=0 depE1T1Interface 0
+
+
+createmo 1 STN=0,TrafficManager=
+setmoattribute 1 STN=0,TrafficManager= schedulerMeanRate 
+setmoattribute 1 STN=0,TrafficManager= schedulerMaxBurstSize 
+setmoattribute 1 STN=0,TrafficManager= diffServAlgDropQThreshold_1 
+setmoattribute 1 STN=0,TrafficManager= diffServMinRateRelative_1 
+setmoattribute 1 STN=0,TrafficManager= diffServAlgDropQThreshold_2 
+setmoattribute 1 STN=0,TrafficManager= diffServMinRateRelative_2 
+setmoattribute 1 STN=0,TrafficManager= diffServAlgDropQThreshold_3 
+setmoattribute 1 STN=0,TrafficManager= diffServMinRateRelative_3 
+setmoattribute 1 STN=0,TrafficManager= diffServAlgDropQThreshold_4 
+setmoattribute 1 STN=0,TrafficManager= diffServMinRateRelative_4 
+setmoattribute 1 STN=0,TrafficManager= diffServAlgDropQThreshold_5 
+setmoattribute 1 STN=0,TrafficManager= diffServMinRateRelative_5 
+setmoattribute 1 STN=0,TrafficManager= diffServAlgDropQThreshold_6 
+setmoattribute 1 STN=0,TrafficManager= diffServMinRateRelative_6 
+setmoattribute 1 STN=0,TrafficManager= diffServAlgDropQThreshold_7 
+setmoattribute 1 STN=0,TrafficManager= diffServMinRateRelative_7 
+setmoattribute 1 STN=0,TrafficManager= diffServAlgDropQThreshold_8 
+setmoattribute 1 STN=0,TrafficManager= diffServMinRateRelative_8 
+setmoattribute 1 STN=0,TrafficManager= depQosPolicy STN=0,QosPolicy=
+
+
+createmo 1 STN=0,PingMeasurement=0
+setmoattribute 1 STN=0,PingMeasurement=0 pingDestination 
+setmoattribute 1 STN=0,PingMeasurement=0 pingDSCP 40
+setmoattribute 1 STN=0,PingMeasurement=0 depIP_Interface STN=0,IPInterface=
+
+
+createmo 1 STN=0,TwampResponder=0
+setmoattribute 1 STN=0,TwampResponder=0 udpPort 4001
+setmoattribute 1 STN=0,TwampResponder=0 depIP_Interface STN=0,IPInterface=
+createmo 1 STN=0,TwampResponder=1
+setmoattribute 1 STN=0,TwampResponder=1 udpPort 4002
+setmoattribute 1 STN=0,TwampResponder=1 depIP_Interface STN=0,IPInterface=
+createmo 1 STN=0,TwampResponder=2
+setmoattribute 1 STN=0,TwampResponder=2 udpPort 4003
+setmoattribute 1 STN=0,TwampResponder=2 depIP_Interface STN=0,IPInterface=
+createmo 1 STN=0,TwampResponder=3
+setmoattribute 1 STN=0,TwampResponder=3 udpPort 4004
+setmoattribute 1 STN=0,TwampResponder=3 depIP_Interface STN=0,IPInterface=
+
+
+createmo 1 STN=0,Synchronization=0,SynchEthInterface=0
+setmoattribute 1 STN=0,Synchronization=0,SynchEthInterface=0 depEthernetInterface STN=0,EthernetInterface=P4_SA869_LTE
+setmoattribute 1 STN=0,Synchronization=0,SynchEthInterface=0 ssmQLminimum QL-SSU-A
+createmo 1 STN=0,Synchronization=0,SynchEthInterface=1
+setmoattribute 1 STN=0,Synchronization=0,SynchEthInterface=1 depEthernetInterface STN=0,EthernetInterface=P1B_SA869_1900
+setmoattribute 1 STN=0,Synchronization=0,SynchEthInterface=1 ssmQLminimum QL-SSU-A
+createmo 1 STN=0,Synchronization=0,SynchEthInterface=2
+setmoattribute 1 STN=0,Synchronization=0,SynchEthInterface=2 depEthernetInterface STN=0,EthernetInterface=P3B_SA869_900
+setmoattribute 1 STN=0,Synchronization=0,SynchEthInterface=2 ssmQLminimum QL-SSU-A
+
+
+createmo 1 STN=0,FmSubscription=1
+setmoattribute 1 STN=0,FmSubscription=1 managerIpAddress 
+createmo 1 STN=0,QosPolicy=

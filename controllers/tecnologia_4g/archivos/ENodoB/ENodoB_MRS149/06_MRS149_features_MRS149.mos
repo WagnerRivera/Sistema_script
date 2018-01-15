@@ -1,0 +1,66 @@
+
+
+lt all
+confb +
+gs +
+
+set SystemFunctions=1,Lm=1,FeatureState=CXC4010319  featureState  1
+set SystemFunctions=1,Lm=1,FeatureState=CXC4010320  featureState  1
+set SystemFunctions=1,Lm=1,FeatureState=CXC4010609  featureState  1
+set SystemFunctions=1,Lm=1,FeatureState=CXC4010613  featureState  1
+set SystemFunctions=1,Lm=1,FeatureState=CXC4010616  featureState  1
+set SystemFunctions=1,Lm=1,FeatureState=CXC4010618  featureState  1
+set SystemFunctions=1,Lm=1,FeatureState=CXC4010620  featureState  1
+set SystemFunctions=1,Lm=1,FeatureState=CXC4010723  featureState  1
+set SystemFunctions=1,Lm=1,FeatureState=CXC4010770  featureState  1
+set SystemFunctions=1,Lm=1,FeatureState=CXC4010912  featureState  1
+set SystemFunctions=1,Lm=1,FeatureState=CXC4010955  featureState  1
+set SystemFunctions=1,Lm=1,FeatureState=CXC4010956  featureState  1
+set SystemFunctions=1,Lm=1,FeatureState=CXC4010959  featureState  1
+set SystemFunctions=1,Lm=1,FeatureState=CXC4010967  featureState  1
+set SystemFunctions=1,Lm=1,FeatureState=CXC4010974  featureState  1
+set SystemFunctions=1,Lm=1,FeatureState=CXC4010980  featureState  1
+set SystemFunctions=1,Lm=1,FeatureState=CXC4011011  featureState  1
+set SystemFunctions=1,Lm=1,FeatureState=CXC4011033  featureState  1
+set SystemFunctions=1,Lm=1,FeatureState=CXC4011050  featureState  1
+set SystemFunctions=1,Lm=1,FeatureState=CXC4011055  featureState  1
+set SystemFunctions=1,Lm=1,FeatureState=CXC4011056  featureState  1
+set SystemFunctions=1,Lm=1,FeatureState=CXC4011074  featureState  1
+set SystemFunctions=1,Lm=1,FeatureState=CXC4011157  featureState  1
+set SystemFunctions=1,Lm=1,FeatureState=CXC4011183  featureState  1
+set SystemFunctions=1,Lm=1,FeatureState=CXC4011252  featureState  1
+set SystemFunctions=1,Lm=1,FeatureState=CXC4011317  featureState  1
+set SystemFunctions=1,Lm=1,FeatureState=CXC4011319  featureState  1
+set SystemFunctions=1,Lm=1,FeatureState=CXC4011345  featureState  1
+set SystemFunctions=1,Lm=1,FeatureState=CXC4011356  featureState  1
+set SystemFunctions=1,Lm=1,FeatureState=CXC4011366  featureState  1
+set SystemFunctions=1,Lm=1,FeatureState=CXC4011370  featureState  1
+set SystemFunctions=1,Lm=1,FeatureState=CXC4011373  featureState  1
+set SystemFunctions=1,Lm=1,FeatureState=CXC4011376  featureState  1
+set SystemFunctions=1,Lm=1,FeatureState=CXC4011476  featureState  1
+set SystemFunctions=1,Lm=1,FeatureState=CXC4011482  featureState  1
+set SystemFunctions=1,Lm=1,FeatureState=CXC4011515  featureState  1
+set SystemFunctions=1,Lm=1,FeatureState=CXC4011559  featureState  1
+set SystemFunctions=1,Lm=1,FeatureState=CXC4011666  featureState  1
+set SystemFunctions=1,Lm=1,FeatureState=CXC4011700  featureState  1
+set SystemFunctions=1,Lm=1,FeatureState=CXC4011715  featureState  1
+set SystemFunctions=1,Lm=1,FeatureState=CXC4011939  featureState  1
+set SystemFunctions=1,Lm=1,FeatureState=CXC4011941  featureState  1
+set SystemFunctions=1,Lm=1,FeatureState=CXC4011955  featureState  1
+set SystemFunctions=1,Lm=1,FeatureState=CXC4011958  featureState  1
+set SystemFunctions=1,Lm=1,FeatureState=CXC4011969  featureState  1
+set SystemFunctions=1,Lm=1,FeatureState=CXC4040011  featureState  1
+set SystemFunctions=1,Lm=1,FeatureState=CXC4010717  featureState  1
+set SystemFunctions=1,Lm=1,FeatureState=CXC4010841  featureState  1
+set SystemFunctions=1,Lm=1,FeatureState=CXC4011034  featureState  1
+set SystemFunctions=1,Lm=1,FeatureState=CXC4011245  featureState  1
+set SystemFunctions=1,Lm=1,FeatureState=CXC4011258  featureState  1
+set SystemFunctions=1,Lm=1,FeatureState=CXC4011937  featureState  1
+set SystemFunctions=1,Lm=1,FeatureState=CXC4011938  featureState  1
+set SystemFunctions=1,Lm=1,FeatureState=CXC4011946  featureState  1
+
+cvms Feature 
+cv rbset Feature 
+
+confb -
+gs -
